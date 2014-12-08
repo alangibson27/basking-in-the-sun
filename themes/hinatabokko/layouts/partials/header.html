@@ -1,0 +1,18 @@
+{{ "<!--[if IE 8]>" | safeHtml }}
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('section');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('hgroup');
+</script>
+{{ "<![endif]-->" | safeHtml }}
+
+<div class="pagetop">
+    <h1 class="topheader">{{ .Site.Title }}</h1>
+    <img class="topimage" src="{{ .Site.Params.topimage }}"/>
+</div>
+
+{{ partial "navbar.html" . }}

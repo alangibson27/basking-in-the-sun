@@ -1,0 +1,6 @@
+baseurl = "http://www.baskinginthesun.co.uk"
+languageCode = "ja-jp"
+title = "ひなたぼっこ"
+
+[params]
+topimage = "http://images.baskinginthesun.co.uk/shutterstock_134583743.jpg"

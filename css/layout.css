@@ -1,0 +1,53 @@
+#wrapper {
+    min-height: 400px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.pagetop {
+    overflow: hidden;
+}
+
+.topheader {
+    float: left;
+    margin-left: 20px;
+}
+
+.topimage {
+    margin-right: 20px;
+    margin-top: 5px;
+    height: 150px;
+    width: 150px;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5em;
+    color: #cccccc;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #ff9999;
+}
+
+#content {
+    padding: 10px;
+}
+
+#content ul li {
+    list-style: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#content ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

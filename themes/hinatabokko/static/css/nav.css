@@ -3,63 +3,112 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 nav {
+    position: relative;
     display: block;
     background-color: #ffffff;
-    text-align: center;
     border-top: 1px solid #dddddd;
     border-bottom: 1px solid #dddddd;
-}
-
-nav ul {
-    font-size: 14px;
-    position: relative;
-    display: inline-table;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-nav ul:after {
-    content: ""; clear: both; display: block;
-}
-
-nav ul li {
-    display: inline;
-    float: left;
 }
 
 nav ul li a {
     display: block;
     padding: 3px 6px;
-    color: #e693a3;
     text-decoration: none;
     font-weight: bold;
 }
 
-nav ul li a:hover {
-    background: #59dfe6;
-    color: #ffffff;
-    border-radius: 3px;
-    padding: 3px 6px;
-    margin: 0;
-    text-decoration: none;
+
+@media screen and (max-width: 759px) {
+
+    nav div.menubar {
+        position: relative;
+        color: #e693a3;
+        font-weight: bold;
+        padding-left: 1em;
+    }
+
+    nav ul {
+        position: relative;
+        display: none;
+        background: #e693a3;
+        color: #ffffff;
+        top: auto;
+        left: 0.5em;
+        list-style: none;
+        margin-top: 0;
+        padding-left: 0.5em;
+    }
+
+    nav > ul {
+        position: absolute;
+    }
+
+    nav ul li ul {
+        display: inline;
+        padding: 0;
+    }
+
+    nav ul li {
+        position: relative;
+        top: 0px;
+    }
 }
 
-nav ul li ul {
-    border: 1px solid #dddddd;
-    border-radius: 3px;
-    background: #ffffff;
-	display: none;
-	position: absolute;
-	top: auto;
-	left: auto;
-	padding: 0px 0px;
-}
+@media screen and (min-width: 760px) {
+    nav {
+        text-align: center;
+    }
 
-nav ul ul li {
-    float: none;
-    position: relative;
-}
+    nav div.menubar {
+        display: none;
+    }
 
-nav ul li:hover > ul {
-	display: block;
+    nav ul {
+        position: relative;
+        display: inline-table;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    nav ul:after {
+        content: ""; clear: both; display: block;
+    }
+
+    nav ul li {
+        display: inline;
+        float: left;
+    }
+
+    nav ul li a {
+        color: #e693a3;
+    }
+
+    nav ul li a:hover {
+        background: #59dfe6;
+        color: #ffffff;
+        border-radius: 3px;
+        padding: 3px 6px;
+        margin: 0;
+        text-decoration: none;
+    }
+
+    nav ul li ul {
+        border: 1px solid #dddddd;
+        border-radius: 3px;
+        background: #ffffff;
+        display: none;
+        position: absolute;
+        top: auto;
+        left: auto;
+        padding: 0px 0px;
+    }
+
+    nav ul ul li {
+        float: none;
+        position: relative;
+    }
+
+    nav ul li:hover > ul {
+        display: block;
+    }
 }

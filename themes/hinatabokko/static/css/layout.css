@@ -79,3 +79,21 @@ h2 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+form {
+    padding: 1em;
+    width: 90%;
+    margin: auto;
+}
+
+form div {
+    padding-top: 0.5em;
+}
+
+form div label {
+    display: block;
+}
+
+form div textarea {
+    max-width: 100%;
+}

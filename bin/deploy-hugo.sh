@@ -1,5 +1,5 @@
 #!/bin/bash
-echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+echo -e "\033[0;32mDeploying public site updates to GitHub...\033[0m"
 
 # Build the project. 
 hugo -t hinatabokko 

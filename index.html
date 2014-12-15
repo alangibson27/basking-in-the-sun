@@ -2,14 +2,15 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
     <title>ひなたぼっこ</title>
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/body.css">
 </head>
+
 <body>
     <div id="wrapper">
-
     <!--[if IE 8]>
 <script>
 document.createElement('header');
@@ -28,6 +29,7 @@ document.createElement('hgroup');
 </div>
 
 <nav>
+    <div class="menubar">ホーム</div>
     <ul>
         <li><a href="/">ホーム</a></li>
         <li><a href="/about">インファンとマッサージーとは？</a></li>
@@ -46,6 +48,12 @@ document.createElement('hgroup');
 
 
 
+    <script src="/js/jquery-1.11.1.min.js"></script>
+<script>
+    $(".menubar").click(function() {
+        $("nav > ul").toggle();
+    })
+</script>
     </div>
 </body>
 </html>

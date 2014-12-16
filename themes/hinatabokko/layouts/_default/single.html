@@ -11,7 +11,9 @@
         </div>
     </article>
 
+    {{ if .Params.contactform }}
     {{ partial "contact.html" . }}
+    {{ end }}
 
     {{ partial "footer.html" . }}
 </div>

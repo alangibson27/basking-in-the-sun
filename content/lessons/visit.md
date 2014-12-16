@@ -2,7 +2,7 @@
 date = "2014-11-26T21:54:47Z"
 draft = true
 title = "出張レッスン"
-
+calendar = true
 +++
 ベビーマッサージには興味があるけど。。。
 

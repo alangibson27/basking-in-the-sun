@@ -2,7 +2,7 @@
 date = "2014-11-26T21:54:51Z"
 draft = true
 title = "自宅レッスン"
-
+calendar = true
 +++
 現在、南西ロンドン（Zone4）にある講師自宅フラットでもレッスンを開催しております。
 Richmond駅(District Line) から、バスで１０分程の場所にあります。

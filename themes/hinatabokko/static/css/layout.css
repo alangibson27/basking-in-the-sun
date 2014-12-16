@@ -8,6 +8,35 @@
     border: 1px solid;
 }
 
+.iframe {
+    min-width: 80%;
+    min-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    border: 0px;
+}
+
+@media screen and (min-width: 440px) {
+    .calendar {
+        display: block;
+    }
+
+    .agenda {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 439px) {
+    .calendar {
+        display: none;
+    }
+
+    .agenda {
+        display: block;
+    }
+}
+
 .pagetop {
     overflow: hidden;
 }

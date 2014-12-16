@@ -15,6 +15,10 @@
     {{ partial "contact.html" . }}
     {{ end }}
 
+    {{ if .Params.calendar }}
+    {{ partial "calendar.html" . }}
+    {{ end }}
+
     {{ partial "footer.html" . }}
 </div>
 

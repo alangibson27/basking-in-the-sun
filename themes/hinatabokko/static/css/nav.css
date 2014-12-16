@@ -10,7 +10,7 @@ nav {
     border-bottom: 1px solid #dddddd;
 }
 
-a {
+nav a {
     display: block;
     padding: 3px 6px;
     text-decoration: none;
@@ -18,7 +18,7 @@ a {
     color: #e693a3;
 }
 
-a:hover {
+nav a:hover {
     background: #59dfe6;
     color: #ffffff;
     border-radius: 3px;

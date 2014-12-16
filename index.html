@@ -29,7 +29,7 @@ document.createElement('hgroup');
 </div>
 
 <nav>
-    <div class="menubar">ホーム</div>
+    <div class="menubar"><a>メニュー</a></div>
     <ul>
         <li><a href="/">ホーム</a></li>
         <li><a href="/about">インファンとマッサージーとは？</a></li>
@@ -50,9 +50,11 @@ document.createElement('hgroup');
 
     <script src="/js/jquery-1.11.1.min.js"></script>
 <script>
-    $(".menubar").click(function() {
-        $("nav > ul").toggle();
-    })
+    $(document).ready(function() {
+        $(".menubar").click(function() {
+            $("nav > ul").toggle();
+        })
+    });
 </script>
     </div>
 </body>

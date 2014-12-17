@@ -144,3 +144,19 @@ div.testimonial p {
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
+
+@media screen and (min-width: 500px) {
+    div.narrow {
+        position: relative;
+        max-width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    br {
+        display: none;
+        
+    }
+}

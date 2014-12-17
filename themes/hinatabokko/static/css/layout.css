@@ -104,6 +104,18 @@ h2 {
     padding-bottom: 2px;
 }
 
+@media screen and (max-width: 439px) {
+    #content ul {
+        padding-left: 1em;
+    }
+}
+
+@media screen and (min-width: 440px) {
+    #content ul {
+        padding-left: 2em;
+    }
+}
+
 #content ul {
     margin-top: 0px;
     margin-bottom: 0px;

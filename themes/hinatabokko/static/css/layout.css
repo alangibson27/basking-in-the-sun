@@ -98,12 +98,6 @@ h2 {
     padding: 10px;
 }
 
-#content ul li {
-    list-style: none;
-    padding-top: 2px;
-    padding-bottom: 2px;
-}
-
 @media screen and (max-width: 439px) {
     #content ul {
         padding-left: 1em;
@@ -137,4 +131,16 @@ form div label {
 
 form div textarea {
     max-width: 100%;
+}
+
+div.testimonial {
+    display: inline-block;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-top: 0.5em;
+}
+
+div.testimonial p {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
 }

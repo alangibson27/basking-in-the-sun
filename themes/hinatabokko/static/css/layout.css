@@ -127,10 +127,10 @@ div.testimonial p {
     margin-right: 0.5em;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 550px) {
     div.narrow {
         position: relative;
-        max-width: 450px;
+        max-width: 500px;
         margin-left: auto;
         margin-right: auto;
     }

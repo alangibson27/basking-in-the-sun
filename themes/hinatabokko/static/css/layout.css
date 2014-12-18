@@ -17,17 +17,15 @@
     border: 0px;
 }
 
-@media screen and (min-width: 440px) {
-    .calendar {
-        display: block;
-    }
-
-    .agenda {
-        display: none;
-    }
+.calendar {
+    display: block;
 }
 
-@media screen and (max-width: 439px) {
+.agenda {
+    display: none;
+}
+
+@media screen and (max-width: 440px) {
     .calendar {
         display: none;
     }
@@ -46,24 +44,24 @@
     margin-left: 20px;
 }
 
+.topimage {
+    display: inline;
+    margin-right: 20px;
+    margin-top: 5px;
+    height: 150px;
+    width: 150px;
+    float: right;
+}
+
 @media screen and (max-width: 500px) {
     .topimage {
         display: none;
     }
 }
 
-@media screen and (min-width: 400px) {
-    .topimage {
-        margin-right: 20px;
-        margin-top: 5px;
-        height: 150px;
-        width: 150px;
-        float: right;
-    }
-}
-
 h1 {
     text-align: center;
+    font-size: 3em;
     color: #cccccc;
 }
 
@@ -83,36 +81,20 @@ h2 {
     }
 }
 
-@media screen and (min-width: 321px) {
-    h1 {
-        font-size: 3em;
-    }
-
-    h2 {
-        font-size: 2em;
-    }
-}
-
-
 #content {
     padding: 10px;
+}
+
+#content ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 2em;
 }
 
 @media screen and (max-width: 439px) {
     #content ul {
         padding-left: 1em;
     }
-}
-
-@media screen and (min-width: 440px) {
-    #content ul {
-        padding-left: 2em;
-    }
-}
-
-#content ul {
-    margin-top: 0px;
-    margin-bottom: 0px;
 }
 
 form {
@@ -157,6 +139,5 @@ div.testimonial p {
 @media screen and (max-width: 500px) {
     br {
         display: none;
-        
     }
 }

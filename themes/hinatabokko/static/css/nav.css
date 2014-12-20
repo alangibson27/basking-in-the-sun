@@ -10,6 +10,10 @@ nav {
     border-bottom: 1px solid #dddddd;
 }
 
+div.menubar {
+    display: none;
+}
+
 nav a {
     display: block;
     padding: 3px 6px;
@@ -28,8 +32,8 @@ nav a:hover {
 }
 
 @media screen and (max-width: 759px) {
-
-    nav div.menubar {
+    div.menubar {
+        display: block;
         position: relative;
         color: #000000;
         font-weight: bold;
@@ -78,10 +82,6 @@ nav a:hover {
 @media screen and (min-width: 760px) {
     nav {
         text-align: center;
-    }
-
-    nav div.menubar {
-        display: none;
     }
 
     nav ul {

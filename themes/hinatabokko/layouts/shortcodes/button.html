@@ -1,6 +1,6 @@
-<div style="display: inline-block">
+<div class="button">
     <a href="{{ index .Params 1}}">
-    <img src="{{ index .Params 0 }}" style="margin-left: auto; margin-right: auto"/>
-{{ .Inner }}
+    <img src="{{ index .Params 0 }}"/>
+<span>{{ .Inner }}</span>
     </a>
 </div>

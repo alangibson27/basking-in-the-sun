@@ -27,12 +27,50 @@
 }
 
 ul li {
-    list-style-image: url("/img/leaf_green.gif")
+    list-style: url("/img/leaf_green.gif");
 }
 
-ul li:after {
+em:before {
+    content: url("/img/leaf_green.gif");
+    padding-right: 0.5em;
+}
+
+em {
+    font-style: normal;
+}
+
+em:after {
     content: url("/img/leaf_green.gif");
     padding-left: 0.5em;
+}
+
+strong {
+    color: #399e39;
+    font-weight: normal;
+}
+
+strong a {
+    color: #399e39;
+    text-decoration: none;
+    border-bottom: 1px #399e39 dotted;
+}
+
+strong a:hover {
+    border-bottom: 1px #399e39 solid;
+}
+
+div.button a {
+    text-decoration: none;
+}
+
+div.button a p {
+    color: #399e39;
+    border-bottom: 1px #399e39 dotted;
+    margin-bottom: 0.5em;
+}
+
+div.button a:hover p {
+    border-bottom: 1px #399e39 solid;
 }
 
 @media screen and (max-width: 440px) {
@@ -96,6 +134,9 @@ h3 {
 
 #content {
     padding: 10px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #content ul {
@@ -129,8 +170,9 @@ form div textarea {
 }
 
 div.testimonial {
+    text-align: left;
     position: relative;
-    display: inline-block;
+    display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -156,4 +198,20 @@ div.testimonial p {
     br {
         display: none;
     }
+}
+
+div.button-bar {
+    text-align: center;
+}
+
+div.button {
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+div.content-block {
+    margin-bottom: 3em;
 }

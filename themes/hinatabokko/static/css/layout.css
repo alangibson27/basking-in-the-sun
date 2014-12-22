@@ -1,5 +1,6 @@
 #wrapper {
     min-height: 400px;
+    color: #444444;
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
@@ -25,6 +26,15 @@
     display: none;
 }
 
+ul li {
+    list-style-image: url("/img/leaf_green.gif")
+}
+
+ul li:after {
+    content: url("/img/leaf_green.gif");
+    padding-left: 0.5em;
+}
+
 @media screen and (max-width: 440px) {
     .calendar {
         display: none;
@@ -40,17 +50,16 @@
 }
 
 .topheader {
-    float: left;
-    margin-left: 20px;
+    display: block;
 }
 
 .topimage {
-    display: inline;
-    margin-right: 20px;
-    margin-top: 5px;
-    height: 150px;
-    width: 150px;
-    float: right;
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
 }
 
 @media screen and (max-width: 500px) {
@@ -69,6 +78,10 @@ h2 {
     text-align: center;
     font-size: 2em;
     color: #ff9999;
+}
+
+h3 {
+    text-align: center;
 }
 
 @media screen and (max-width: 320px) {
@@ -116,9 +129,12 @@ form div textarea {
 }
 
 div.testimonial {
+    position: relative;
     display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 10px;
-    border: 1px solid;
+    border: 1px solid #dddddd;
     margin-top: 0.5em;
 }
 

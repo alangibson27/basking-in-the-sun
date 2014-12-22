@@ -16,7 +16,7 @@ Eメール:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;baskinginthesun22☆gmail.com （☆を
 <br>
 電話:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;07454 005 647
 
-* 留守番電話につながった場合、お手数ですがメッセージを残してください。<br>
+> 留守番電話につながった場合、お手数ですがメッセージを残してください。<br>
   折り返しお電話いたします。
 
 

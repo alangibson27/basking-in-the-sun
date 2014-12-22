@@ -8,9 +8,15 @@ title = "レッスン"
 皆様のご自宅に出張させていただく「出張レッスン」と、<br>
 講師宅での「自宅レッスン」を行っております。
 
-> [自宅レッスン](/lessons/home)
+<div style="display: inline-block; text-align: center">
+{{% button /img/flower_pink.gif /lessons/home %}}
+自宅レッスン
+{{% /button %}}
 
-> [出張レッスン](/lessons/visit)
+{{% button /img/flower_blue.gif /lessons/visit %}}
+出張レッスン
+{{% /button %}}
+</div>
 
 「ベビーマッサージが気になるな〜」と思った時が始め時です♪<br>
 ご都合に合わせて、お好きなレッスンをお選びください。

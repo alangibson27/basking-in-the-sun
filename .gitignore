@@ -1,6 +1,7 @@
 *.iml
 *.class
 .idea/
+.hugolocal/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/

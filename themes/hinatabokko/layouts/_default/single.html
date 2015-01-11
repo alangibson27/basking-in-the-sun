@@ -20,6 +20,13 @@
     {{ end }}
 
     {{ partial "footer.html" . }}
+
+    <footer>
+        {{ if .Params.contactlink }}
+        <strong><a href="/contact">{{ .Params.contactlink }}</a></strong>
+        {{ end }}
+    </footer>
+
 </div>
 
 </body>

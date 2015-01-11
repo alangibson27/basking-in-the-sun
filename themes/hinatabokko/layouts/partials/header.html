@@ -11,7 +11,7 @@ document.createElement('hgroup');
 {{ "<![endif]-->" | safeHtml }}
 
 <div class="pagetop">
-    <h1 class="topheader">{{ .Site.Title }}</h1>
+    <img class="toplogo" src="{{ .Site.Params.logo }}"/>
 </div>
 
 {{ partial "navbar.html" . }}

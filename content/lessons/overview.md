@@ -5,18 +5,17 @@ title = "レッスン"
 +++
 {{% narrow %}}
 {{% center %}}
-ひなたぼっこでは<br>
 皆様のご自宅に出張させていただく「出張レッスン」と、<br>
 講師宅での「自宅レッスン」を行っております。
 {{% /center %}}
 
 {{% button-bar %}}
-{{% button /img/flower_pink.gif /lessons/home %}}
-自宅レッスン
+{{% button http://images.baskinginthesun.co.uk/visit.png /lessons/visit %}}
+出張レッスン
 {{% /button %}}
 
-{{% button /img/flower_blue.gif /lessons/visit %}}
-出張レッスン
+{{% button http://images.baskinginthesun.co.uk/visit.png /lessons/home %}}
+自宅レッスン
 {{% /button %}}
 {{% /button-bar %}}
 

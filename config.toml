@@ -3,6 +3,6 @@ languageCode = "ja-jp"
 title = "ひなたぼっこ"
 
 [params]
-topimage = "http://images.baskinginthesun.co.uk/shutterstock_134583743.jpg"
+logo = "http://images.baskinginthesun.co.uk/logo.jpg"
 contactformaction = "http://forms.brace.io/baskinginthesun22@gmail.com"
 calendarurl = "opi0pnshql48d9u8ssmrovpr00@group.calendar.google.com"

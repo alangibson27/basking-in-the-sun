@@ -1,6 +1,6 @@
 +++
 date = "2014-11-26T22:16:58Z"
-draft = true
+draft = false
 title = "ママの声"
 
 +++

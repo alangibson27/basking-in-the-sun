@@ -1,6 +1,6 @@
 +++
 date = "2014-11-26T22:16:45Z"
-draft = true
+draft = false
 title = "講師プロフィール"
 
 +++

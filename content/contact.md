@@ -1,6 +1,6 @@
 +++
 date = "2014-11-26T22:17:16Z"
-draft = true
+draft = false
 title = "ご予約・お問い合わせ"
 contactform = true
 +++

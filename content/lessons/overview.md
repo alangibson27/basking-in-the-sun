@@ -1,6 +1,6 @@
 +++
 date = "2014-11-26T21:54:51Z"
-draft = true
+draft = false
 title = "レッスン"
 +++
 {{% narrow %}}
@@ -10,11 +10,11 @@ title = "レッスン"
 {{% /center %}}
 
 {{% button-bar %}}
-{{% button http://images.baskinginthesun.co.uk/visit.png /lessons/visit %}}
+{{% button http://images.baskinginthesun.co.uk/butterfly.png /lessons/visit %}}
 出張レッスン
 {{% /button %}}
 
-{{% button http://images.baskinginthesun.co.uk/visit.png /lessons/home %}}
+{{% button http://images.baskinginthesun.co.uk/flower.png /lessons/home %}}
 自宅レッスン
 {{% /button %}}
 {{% /button-bar %}}

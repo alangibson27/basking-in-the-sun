@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>ひなたぼっこ</title>
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/body.css">
+</head>
+
+<body>
+<div id="wrapper">
+
+    <!--[if IE 8]>
+<script>
+document.createElement('header');
+document.createElement('nav');
+document.createElement('section');
+document.createElement('article');
+document.createElement('aside');
+document.createElement('footer');
+document.createElement('hgroup');
+</script>
+<![endif]-->
+
+<div class="pagetop">
+    <img class="toplogo" src="http://images.baskinginthesun.co.uk/logo.jpg"/>
+</div>
+
+<nav id="nav">
+    <div class="menubar"><a>メニュー</a></div>
+    <ul>
+        <li><a href="/">ホーム</a></li>
+        <li><a href="/about">インファンとマッサージーとは？</a></li>
+        <li><a href="/lessons/overview">レッスン</a>
+            <ul>
+                <li><a href="/lessons/visit">出張レッスン</a></li>
+                <li><a href="/lessons/home">自宅レッスン</a></li>
+            </ul>
+        </li>
+        <li><a href="/profile">プロフィール</a></li>
+        <li><a href="/testimonial">ママの声</a></li>
+        <li><a href="/faq">FAQ</a></li>
+        <li><a href="/contact">お問い合わせ</a></li>
+    </ul>
+</nav>
+
+
+
+    <article>
+        <h2>ご予約・お問い合わせ</h2>
+        <div id="content">
+            <p>レッスンのご質問、ご予約、メッセージなどは
+Eメール、お電話、または下記メールフォームより<br>
+お気軽にお問い合わせください。</p>
+
+<ul>
+<li><p>Eメール:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:baskinginthesun22@gmail.com">baskinginthesun22@gmail.com</a></p></li>
+
+<li><p>電話:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;07454 005 647</p></li>
+</ul>
+
+<blockquote>
+<p>留守番電話につながった場合、お手数ですがメッセージを残してください。<br>
+  折り返しお電話いたします。</p>
+</blockquote>
+
+        </div>
+    </article>
+
+    
+    <form method="POST" action="http://forms.brace.io/baskinginthesun22@gmail.com">
+
+    <div class="form-group">
+        <label for="exampleInputName">お名前</label>
+        <input name="name" type="name" id="exampleInputName" placeholder="お名前">
+    </div>
+
+    <div class="form-group">
+        <label for="exampleInputEmail1">メールアドレス</label>
+        <input name="_replyto" type="email" id="exampleInputEmail1" placeholder="メールアドレス">
+    </div>
+
+    <div class="form-group">
+        <label for="message">メッセージ</label>
+        <textarea name="message" cols="80" rows="10" id="message"></textarea>
+    </div>
+
+    <input type="hidden" name="_next" value="http://www.baskinginthesun.co.uk/contact/" />
+    <input type="hidden" name="_subject" value="HinataBokko website inquiry" />
+    <input type="text" name="_gotcha" style="display:none" />
+
+    <button type="submit">送信</button>
+
+</form>
+    
+
+    
+
+    <script src="/js/jquery-1.11.1.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".menubar").click(function() {
+            $("nav > ul").toggle();
+        })
+    });
+</script>
+
+    <footer>
+        
+    </footer>
+
+</div>
+
+</body>
+</html>

@@ -230,6 +230,11 @@ div.button {
     padding-top: 0.5em;
 }
 
+div.button img {
+    width: 100px;
+    height: 100px;
+}
+
 div.content-block {
     margin-top: 0px;
     margin-bottom: 3em;

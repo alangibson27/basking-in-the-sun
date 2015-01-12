@@ -1,9 +1,10 @@
 #wrapper {
-    min-height: 400px;
+    color: #444444;
     background-color: #ffffff;
     margin-left: auto;
     margin-right: auto;
     max-width: 900px;
+    min-height: 625px;
     border-radius: 10px;
     border: 1px solid;
 }
@@ -17,17 +18,62 @@
     border: 0px;
 }
 
-@media screen and (min-width: 440px) {
-    .calendar {
-        display: block;
-    }
-
-    .agenda {
-        display: none;
-    }
+.calendar {
+    display: block;
 }
 
-@media screen and (max-width: 439px) {
+.agenda {
+    display: none;
+}
+
+ul li {
+    list-style: url("http://images.baskinginthesun.co.uk/leaf_green.gif");
+}
+
+em:before {
+    content: url("http://images.baskinginthesun.co.uk/leaf_green.gif");
+    padding-right: 0.5em;
+}
+
+em {
+    font-style: normal;
+}
+
+em:after {
+    content: url("http://images.baskinginthesun.co.uk/leaf_green.gif");
+    padding-left: 0.5em;
+}
+
+strong {
+    color: #84a64c;
+    font-weight: bold;
+}
+
+strong a {
+    color: #84a64c;
+    text-decoration: none;
+    border-bottom: 1px #84a64c dotted;
+}
+
+strong a:hover {
+    border-bottom: 1px #84a64c solid;
+}
+
+div.button a {
+    text-decoration: none;
+}
+
+div.button a p {
+    color: #399e39;
+    border-bottom: 1px #399e39 dotted;
+    margin-top: 0px;
+}
+
+div.button a:hover p {
+    border-bottom: 1px #399e39 solid;
+}
+
+@media screen and (max-width: 440px) {
     .calendar {
         display: none;
     }
@@ -41,36 +87,54 @@
     overflow: hidden;
 }
 
-.topheader {
-    float: left;
-    margin-left: 20px;
+.toplogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+    width: 60%;
 }
 
-@media screen and (max-width: 500px) {
-    .topimage {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 400px) {
-    .topimage {
-        margin-right: 20px;
-        margin-top: 5px;
-        height: 150px;
-        width: 150px;
-        float: right;
-    }
+.introimage {
+    display: block;
+    width: 30%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     text-align: center;
-    color: #cccccc;
+    font-size: 3em;
+    color: #e28095;
 }
 
 h2 {
     text-align: center;
     font-size: 2em;
-    color: #ff9999;
+    color: #e28095;
+}
+
+h3 {
+    text-align: left;
+    color: #e28095;
+}
+
+blockquote p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 400px) {
+    blockquote {
+        margin-left: 1em;
+        margin-right: 0;
+    }
+
+    div.inset {
+        margin-left: 1em;
+    }
 }
 
 @media screen and (max-width: 320px) {
@@ -83,30 +147,25 @@ h2 {
     }
 }
 
-@media screen and (min-width: 321px) {
-    h1 {
-        font-size: 3em;
-    }
-
-    h2 {
-        font-size: 2em;
-    }
-}
-
-
 #content {
     padding: 10px;
-}
-
-#content ul li {
-    list-style: none;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 #content ul {
     margin-top: 0px;
     margin-bottom: 0px;
+    padding-left: 2em;
+}
+
+@media screen and (max-width: 439px) {
+    #content ul {
+        padding-left: 1em;
+    }
 }
 
 form {
@@ -125,4 +184,104 @@ form div label {
 
 form div textarea {
     max-width: 100%;
+}
+
+div.testimonial {
+    text-align: left;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+    margin-top: 0.5em;
+}
+
+div.testimonial p {
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+@media screen and (min-width: 550px) {
+    div.narrow {
+        position: relative;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    br {
+        display: none;
+    }
+}
+
+div.button-bar {
+    text-align: center;
+}
+
+div.button {
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+}
+
+div.button img {
+    width: 100px;
+    height: 100px;
+}
+
+div.content-block {
+    margin-top: 0px;
+    margin-bottom: 3em;
+}
+
+div.intro {
+    display: inline-block;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+div.intro p {
+    margin-top: 0em;
+}
+
+@media screen and (max-width: 500px) {
+    div.intro {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+footer a {
+    color: #e28095;
+    border-bottom: 1px #e28095 dotted;
+}
+
+footer a:hover {
+    border-bottom: 1px #e28095 solid;
+}
+
+div.inset {
+    display: inline-block;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    margin-left: 4em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+@media screen and (max-width: 500px) {
+    div.inset {
+        margin-left: 1em;
+    }
 }

@@ -4,5 +4,5 @@ title = "ひなたぼっこ"
 
 [params]
 logo = "http://images.baskinginthesun.co.uk/logo.jpg"
-contactformaction = "http://forms.brace.io/baskinginthesun22@gmail.com"
+contactformaction = "https://baskinginthesun.herokuapp.com/user/965a5316-506c-432d-9801-5bdd649f5a7d"
 calendarurl = "opi0pnshql48d9u8ssmrovpr00@group.calendar.google.com"

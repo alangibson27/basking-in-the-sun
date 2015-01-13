@@ -70,7 +70,7 @@ Eメール、お電話、または下記メールフォームより<br>
     </article>
 
     
-    <form method="POST" action="http://forms.brace.io/baskinginthesun22@gmail.com">
+    <form method="POST" action="https://baskinginthesun.herokuapp.com/user/965a5316-506c-432d-9801-5bdd649f5a7d">
 
     <div class="form-group">
         <label for="exampleInputName">お名前</label>
@@ -79,7 +79,7 @@ Eメール、お電話、または下記メールフォームより<br>
 
     <div class="form-group">
         <label for="exampleInputEmail1">メールアドレス</label>
-        <input name="_replyto" type="email" id="exampleInputEmail1" placeholder="メールアドレス">
+        <input name="email" type="email" id="exampleInputEmail1" placeholder="メールアドレス">
     </div>
 
     <div class="form-group">
@@ -87,10 +87,7 @@ Eメール、お電話、または下記メールフォームより<br>
         <textarea name="message" cols="80" rows="10" id="message"></textarea>
     </div>
 
-    <input type="hidden" name="_next" value="http://www.baskinginthesun.co.uk/contact/" />
-    <input type="hidden" name="_subject" value="HinataBokko website inquiry" />
-    <input type="text" name="_gotcha" style="display:none" />
-
+    <input type="hidden" name="return" value="http://www.baskinginthesun.co.uk/contact/"/>
     <button type="submit">送信</button>
 
 </form>

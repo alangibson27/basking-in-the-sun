@@ -114,11 +114,14 @@ Eメール、お電話、または下記メールフォームより<br>
                 return;
             }
 
+            var formData = $("#contactform").serialize();
+
             $("#submit").attr("disabled", true);
+            $("#response").text("Sending your message ...");
             $.ajax({
                 type: "POST",
                 url: "https:\/\/baskinginthesun.herokuapp.com\/user\/965a5316-506c-432d-9801-5bdd649f5a7d",
-                data: $("#contactform").serialize(),
+                data: formData,
                 success: function() {
                     $("#response").text("ありがとうございます。メールは無事に送信されました。");
                     $("#submit").removeAttr("disabled");

@@ -1,6 +1,5 @@
 <div>
     <form id="contactform">
-
         <div class="form-group">
             <label for="inputName">お名前</label>
             <input name="name" type="name" id="inputName" placeholder="お名前"><span class="feedback" id="nameFeedback">
@@ -12,13 +11,20 @@
         </div>
 
         <div class="form-group">
+            <label for="inputLessonType">ご希望のレッスン</label>
+            <select name="lessonType" id="inputLessonType">
+                <option>プライベートレッスン</option>
+                <option>グループレッスン</option>
+                <option>どちらでも良い</option>
+            </select>
+        </div>
+
+        <div class="form-group">
             <label for="message">メッセージ</label>
             <textarea name="message" cols="80" rows="10" id="message"></textarea>
         </div>
 
-        <input type="hidden" name="return" value="{{ .Permalink }}"/>
         <button type="submit" id="submit">送信</button><span class="feedback" id="response">
-
     </form>
 </div>
 
@@ -41,11 +47,11 @@
                 url: "{{ .Site.Params.contactformaction }}",
                 data: $("#contactform").serialize(),
                 success: function() {
-                    $("#response").text("Thank-you. Your message has been received.");
+                    $("#response").text("ありがとうございます。メールは無事に送信されました。");
                     $("#submit").removeAttr("disabled");
                 },
                 error: function() {
-                    $("#response").text("Your message could not be sent. Please try again later.");
+                    $("#response").text("メッセージが送れませんでした。もう一度お送りください。");
                     $("#submit").removeAttr("disabled");
                 }
             });

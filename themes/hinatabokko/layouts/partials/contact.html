@@ -41,11 +41,14 @@
                 return;
             }
 
+            var formData = $("#contactform").serialize();
+
             $("#submit").attr("disabled", true);
+            $("#response").text("Sending your message ...");
             $.ajax({
                 type: "POST",
                 url: "{{ .Site.Params.contactformaction }}",
-                data: $("#contactform").serialize(),
+                data: formData,
                 success: function() {
                     $("#response").text("ありがとうございます。メールは無事に送信されました。");
                     $("#submit").removeAttr("disabled");

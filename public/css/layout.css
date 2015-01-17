@@ -285,3 +285,12 @@ div.inset {
         margin-left: 1em;
     }
 }
+
+span.feedback {
+    margin-left: 1em;
+}
+
+select {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}

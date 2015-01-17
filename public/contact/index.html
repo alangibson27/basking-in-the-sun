@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/body.css">
+    <script src="/js/jquery-1.11.1.min.js"></script>
 </head>
 
 <body>
@@ -70,33 +71,90 @@ Eメール、お電話、または下記メールフォームより<br>
     </article>
 
     
-    <form method="POST" action="https://baskinginthesun.herokuapp.com/user/965a5316-506c-432d-9801-5bdd649f5a7d">
+    <div>
+    <form id="contactform">
+        <div class="form-group">
+            <label for="inputName">お名前</label>
+            <input name="name" type="name" id="inputName" placeholder="お名前"><span class="feedback" id="nameFeedback">
+        </div>
 
-    <div class="form-group">
-        <label for="exampleInputName">お名前</label>
-        <input name="name" type="name" id="exampleInputName" placeholder="お名前">
-    </div>
+        <div class="form-group">
+            <label for="inputEmail">メールアドレス</label>
+            <input name="email" type="email" id="inputEmail" placeholder="メールアドレス"><span class="feedback" id="emailFeedback">
+        </div>
 
-    <div class="form-group">
-        <label for="exampleInputEmail1">メールアドレス</label>
-        <input name="email" type="email" id="exampleInputEmail1" placeholder="メールアドレス">
-    </div>
+        <div class="form-group">
+            <label for="inputLessonType">ご希望のレッスン</label>
+            <select name="lessonType" id="inputLessonType">
+                <option>プライベートレッスン</option>
+                <option>グループレッスン</option>
+                <option>どちらでも良い</option>
+            </select>
+        </div>
 
-    <div class="form-group">
-        <label for="message">メッセージ</label>
-        <textarea name="message" cols="80" rows="10" id="message"></textarea>
-    </div>
+        <div class="form-group">
+            <label for="message">メッセージ</label>
+            <textarea name="message" cols="80" rows="10" id="message"></textarea>
+        </div>
 
-    <input type="hidden" name="return" value="http://www.baskinginthesun.co.uk/contact/"/>
-    <button type="submit">送信</button>
+        <button type="submit" id="submit">送信</button><span class="feedback" id="response">
+    </form>
+</div>
 
-</form>
-    
-
-    
-
-    <script src="/js/jquery-1.11.1.min.js"></script>
 <script>
+    $(document).ready(function() {
+        $("#submit").click(function(event) {
+            event.preventDefault();
+
+            var nameOk = validate("#inputName", "Please enter your name", "#nameFeedback", containsText);
+            var emailOk = validate("#inputEmail", "Please enter your email address", "#emailFeedback", looksLikeEmailAddress);
+            var messageOk = validate("#message", "Please enter a message", "#response", containsText);
+
+            if (!nameOk || !emailOk || !messageOk) {
+                return;
+            }
+
+            $("#submit").attr("disabled", true);
+            $.ajax({
+                type: "POST",
+                url: "https:\/\/baskinginthesun.herokuapp.com\/user\/965a5316-506c-432d-9801-5bdd649f5a7d",
+                data: $("#contactform").serialize(),
+                success: function() {
+                    $("#response").text("ありがとうございます。メールは無事に送信されました。");
+                    $("#submit").removeAttr("disabled");
+                },
+                error: function() {
+                    $("#response").text("メッセージが送れませんでした。もう一度お送りください。");
+                    $("#submit").removeAttr("disabled");
+                }
+            });
+        });
+    });
+
+    function validate(fieldId, message, target, validator) {
+        if (!validator($(fieldId).val())) {
+            $(target).text(message);
+            $(fieldId).focus();
+            return false;
+        } else {
+            $(target).text("");
+            return true;
+        }
+    }
+
+    function containsText(str) {
+        return str.trim().length > 0;
+    }
+
+    function looksLikeEmailAddress(str) {
+        return str.split("@").length == 2;
+    }
+</script>
+    
+
+    
+
+    <script>
     $(document).ready(function() {
         $(".menubar").click(function() {
             $("nav > ul").toggle();

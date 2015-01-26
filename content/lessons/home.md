@@ -9,7 +9,7 @@ contactlink = "ご予約、ご質問等ございましたら、こちらへど�
 {{% intro %}}
 現在、南西ロンドン（Zone4）にある講師自宅フラットでもレッスンを開催しております。
 
-Richmond駅(District Line) からバスで約１０分、<br>
+Richmond駅(District Line、Overground、National Rail) からバスで約１０分、<br>
 もしくはHounslow East駅(Piccadilly Line)からバスで約２０分の場所にあります。<br>
 両駅にはエレベータが完備されているので、ベビーカーでの移動もご心配ありません。
 

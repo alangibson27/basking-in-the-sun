@@ -10,14 +10,16 @@ document.createElement('hgroup');
 </script>
 {{ "<![endif]-->" | safeHtml }}
 
+{{ $lang := $.Scratch.Get "target" }}
+
 <div class="pagetop">
     <div class="languageIconBar">
     {{ range $lang, $menu := .Site.Menus }}
-        <a href="/{{ $lang }}" id="icon-{{ $lang }}"><img class="languageIcon" src="/icons/{{ $lang }}.png" alt="{{ (index $menu 0).Identifier }}"/></a>
+        <a href="/{{ $lang }}" id="icon-{{ $lang }}"><img class="languageIcon" src="/icons/{{ $lang }}.png" alt="{{ (index $.Site.Data.lang $lang).name }}"/></a>
         {{ if eq $lang ($.Scratch.Get "target") }} {{ $.Scratch.Set "menu" $menu }} {{ end }}
     {{ end }}
     </div>
-    <img class="toplogo" src="{{ (index ($.Scratch.Get "menu") 0).Post }}"/>
+    <img class="toplogo" src="{{ (index .Site.Data.lang $lang).logo }}"/>
 </div>
 
 <script>
@@ -27,22 +29,18 @@ document.createElement('hgroup');
 </script>
 
 <nav id="nav">
-    {{ range $lang, $menu := .Site.Menus }}
-        {{ if eq $lang ($.Scratch.Get "target")}}
-            <div class="menubar"><a>{{ (index $menu 0).Pre }}</a></div>
+    <div class="menubar"><a>{{ (index .Site.Data.lang $lang).menutext }}</a></div>
+    <ul>
+        {{ range (index .Site.Menus $lang) }}
+        <li><a href="{{ .Url }}">{{ .Name }}</a>
+            {{ if .HasChildren }}
             <ul>
-                {{ range $menu }}
-                <li><a href="{{ .Url }}">{{ .Name }}</a>
-                    {{ if .HasChildren }}
-                    <ul>
-                        {{ range .Children }}
-                        <li><a href="{{ .Url }}">{{ .Name }}</a></li>
-                        {{ end }}
-                    </ul>
-                    {{ end }}
-                </li>
+                {{ range .Children }}
+                <li><a href="{{ .Url }}">{{ .Name }}</a></li>
                 {{ end }}
             </ul>
+            {{ end }}
+        </li>
         {{ end }}
-    {{ end }}
+    </ul>
 </nav>

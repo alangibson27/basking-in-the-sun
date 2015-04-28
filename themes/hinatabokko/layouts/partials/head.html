@@ -6,12 +6,14 @@
 {{ $.Scratch.Set "target" "ja" }}
 {{ else if in .Url "/en/" }}
 {{ $.Scratch.Set "target" "en" }}
+{{ else }}
+{{ $.Scratch.Set "target" "ja" }}
 {{ end }}
 
 <head lang="{{ $.Scratch.Get "target" }}">
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1">
-    <title>{{ .Site.Title }}</title>
+    <title>{{ (index .Site.Data.lang ($.Scratch.Get "target")).sitetitle }}</title>
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/layout.css">
     <link rel="stylesheet" href="/css/body.css">

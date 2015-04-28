@@ -4,5 +4,5 @@ if [ $PID ]; then
   kill $PID
 fi
 
-hugo server --destination=.hugolocal --buildDrafts=true --theme=hinatabokko &
+hugo server --destination=.hugolocal --buildDrafts=true --theme=hinatabokko
 

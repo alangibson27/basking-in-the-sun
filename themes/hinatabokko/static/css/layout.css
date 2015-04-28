@@ -85,6 +85,13 @@ div.button a:hover p {
 
 .pagetop {
     overflow: hidden;
+    position: relative;
+}
+
+.languageIconBar {
+    position: absolute;
+    right: 0;
+    display: block
 }
 
 .toplogo {

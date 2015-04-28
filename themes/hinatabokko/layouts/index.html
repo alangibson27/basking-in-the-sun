@@ -1,11 +1,9 @@
-{{ partial "head.html" . }}
+<html>
 <body>
-    <div id="wrapper">
-        {{ partial "header.html" . }}
-
-        {{ partial "indexcontent.html" . }}
-
-        {{ partial "footer.html" . }}
+    <div>
+        {{ range $lang, $menu := .Site.Menus }}
+        <a href="/{{ $lang }}">{{ (index $menu 0).Identifier }}</a>
+        {{ end }}
     </div>
 </body>
 </html>

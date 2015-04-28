@@ -1,7 +1,10 @@
 +++
 date = "2014-11-26T21:54:51Z"
 draft = false
-title = "レッスン"
+title = "Lessons"
+
+[menu.en]
+weight = 10
 +++
 {{% narrow %}}
 {{% center %}}
@@ -9,15 +12,15 @@ title = "レッスン"
 講師宅での「自宅レッスン」を行っております。
 {{% /center %}}
 
-{{% button-bar %}}
-{{% button http://images.baskinginthesun.co.uk/butterfly.png /lessons/visit %}}
+{{% buttonbar %}}
+{{% button "http://images.baskinginthesun.co.uk/butterfly.png" "../visit" %}}
 出張レッスン
 {{% /button %}}
 
-{{% button http://images.baskinginthesun.co.uk/flower.png /lessons/home %}}
+{{% button "http://images.baskinginthesun.co.uk/flower.png" "../home" %}}
 自宅レッスン
 {{% /button %}}
-{{% /button-bar %}}
+{{% /buttonbar %}}
 
 「ベビーマッサージが気になるな〜」と思った時が始め時です♪<br>
 ご都合に合わせて、お好きなレッスンをお選びください。

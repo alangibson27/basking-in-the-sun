@@ -3,6 +3,9 @@ date = "2014-11-26T22:17:07Z"
 draft = false
 title = "FAQ"
 contactlink = "他にもご質問がありましたら、こちらへどうぞ　☎"
+
+[menu.ja]
+weight = 50
 +++
 **Q1. ベビーマッサージはいつから始められますか？**
 

@@ -11,7 +11,38 @@ document.createElement('hgroup');
 {{ "<![endif]-->" | safeHtml }}
 
 <div class="pagetop">
-    <img class="toplogo" src="{{ .Site.Params.logo }}"/>
+    <div class="languageIconBar">
+    {{ range $lang, $menu := .Site.Menus }}
+        <a href="/{{ $lang }}" id="icon-{{ $lang }}"><img class="languageIcon" src="/icons/{{ $lang }}.png" alt="{{ (index $menu 0).Identifier }}"/></a>
+        {{ if eq $lang ($.Scratch.Get "target") }} {{ $.Scratch.Set "menu" $menu }} {{ end }}
+    {{ end }}
+    </div>
+    <img class="toplogo" src="{{ (index ($.Scratch.Get "menu") 0).Post }}"/>
 </div>
 
-{{ partial "navbar.html" . }}
+<script>
+    $(document).ready(function() {
+        $("#icon-{{ $.Scratch.Get "target" }}").hide();
+    });
+</script>
+
+<nav id="nav">
+    {{ range $lang, $menu := .Site.Menus }}
+        {{ if eq $lang ($.Scratch.Get "target")}}
+            <div class="menubar"><a>{{ (index $menu 0).Pre }}</a></div>
+            <ul>
+                {{ range $menu }}
+                <li><a href="{{ .Url }}">{{ .Name }}</a>
+                    {{ if .HasChildren }}
+                    <ul>
+                        {{ range .Children }}
+                        <li><a href="{{ .Url }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                    {{ end }}
+                </li>
+                {{ end }}
+            </ul>
+        {{ end }}
+    {{ end }}
+</nav>

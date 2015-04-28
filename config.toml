@@ -6,3 +6,19 @@ title = "ひなたぼっこ"
 logo = "http://images.baskinginthesun.co.uk/logo.jpg"
 contactformaction = "https://baskinginthesun.herokuapp.com/user/965a5316-506c-432d-9801-5bdd649f5a7d"
 calendarurl = "opi0pnshql48d9u8ssmrovpr00@group.calendar.google.com"
+
+[[menu.ja]]
+name = "ホーム"
+weight = -10
+url = "/ja/"
+identifier = "日本語"
+pre = "メニュー"
+post = "http://images.baskinginthesun.co.uk/logo.jpg"
+
+[[menu.en]]
+name = "Home"
+weight = -10
+url = "/en/"
+identifier = "English"
+pre = "Menu"
+post = "/images/logo_en.jpg"

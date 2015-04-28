@@ -2,6 +2,12 @@ header, nav, section, article, aside, footer, hgroup {
    display: block;
 }
 
+img.languageIcon {
+    width: 32px;
+    height: 32px;
+    float: right;
+}
+
 nav {
     position: relative;
     display: block;

@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head lang="ja">
+{{ if .Section }}
+{{ $.Scratch.Set "target" .Section }}
+{{ else if in .Url "/ja/" }}
+{{ $.Scratch.Set "target" "ja" }}
+{{ else if in .Url "/en/" }}
+{{ $.Scratch.Set "target" "en" }}
+{{ end }}
+
+<head lang="{{ $.Scratch.Get "target" }}">
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1">
     <title>{{ .Site.Title }}</title>

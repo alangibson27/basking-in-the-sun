@@ -23,7 +23,7 @@
 
     <footer>
         {{ if .Params.contactlink }}
-        <strong><a href="/contact">{{ .Params.contactlink }}</a></strong>
+        <strong><a href="/{{ $.Scratch.Get "target" }}/contact">{{ .Params.contactlink }}</a></strong>
         {{ end }}
     </footer>
 

@@ -3,6 +3,8 @@ date = "2014-11-26T20:56:02Z"
 draft = false
 title = "インファントマッサージとは?"
 
+[menu.ja]
+weight = 0
 +++
 
 {{% intro %}}

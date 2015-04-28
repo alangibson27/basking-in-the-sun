@@ -3,6 +3,9 @@ date = "2014-11-26T22:17:16Z"
 draft = false
 title = "ご予約・お問い合わせ"
 contactform = true
+
+[menu.ja]
+weight = 60
 +++
 レッスンのご質問、ご予約、メッセージなどは
 Eメール、お電話、または下記メールフォームより<br>

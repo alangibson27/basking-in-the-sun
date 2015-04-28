@@ -1,6 +1,13 @@
-{{ partial "head.html" . }}
+<!DOCTYPE html>
+<html>
+<head lang="{{ range $code, $props := .Site.Data.lang }}{{ $code }},{{end}}">
+<meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1">
+<title>{{ range $code, $props := .Site.Data.lang }}{{ $props.sitetitle }} | {{ end }}Home</title>
+<link rel="stylesheet" href="/css/layout.css">
+<link rel="stylesheet" href="/css/body.css">
+</head>
 <body>
-
 <div id="wrapper">
     {{ range $code, $props := .Site.Data.lang }}
     <div>

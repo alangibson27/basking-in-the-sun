@@ -1,0 +1,87 @@
+{{ $lang := $.Scratch.Get "target" }}
+{{ with (index .Site.Data.lang.contactform $lang) }}
+<div>
+    <form id="contactform">
+        {{ range .fields }}
+            <div class="form-group">
+                {{ if eq .type "choice" }}
+                    <label for="{{ .id }}">{{ .label }}</label>
+                    <select name="{{ .name }}" id="{{ .id }}">
+                        {{ range .values }}
+                            <option>{{ . }}</option>
+                        {{ end }}
+                    </select>
+                {{ else if eq .type "message" }}
+                    <label for="{{ .id }}">{{ .label }}</label>
+                    <textarea name="{{ .name }}" cols="80" rows="10" id="{{ .id }}"></textarea>
+                {{ else }}
+                    <label for="{{ .id }}">{{ .label }}</label>
+                    <input name="{{ .name }}" type="{{ .type }}" id="{{ .id }}" placeholder="{{ .label }}"><span class="feedback" id="{{ .id }}Feedback">
+                {{ end }}
+            </div>
+        {{ end }}
+
+        <button type="submit" id="submit">{{ .submittext }}</button><span class="feedback" id="response">
+    </form>
+</div>
+
+<script>
+    $(document).ready(function() {
+        $("#submit").click(function(event) {
+            event.preventDefault();
+
+            var valid = true;
+            {{ range .fields }}
+                {{ if .validate }}
+                    {{ if eq .type "email" }}
+                        valid = valid && validate("#{{ .id }}", "Please provide the requested information", "#{{ .id }}Feedback", looksLikeEmailAddress);
+                    {{ else }}
+                        valid = valid && validate("#{{ .id }}", "Please provide the requested information", "#{{ .id }}Feedback", containsText);
+                    {{ end }}
+                {{ end }}
+            {{ end }}
+
+            if (!valid) {
+                return;
+            }
+
+            var formData = $("#contactform").serialize();
+
+            $("#submit").attr("disabled", true);
+            $("#response").text("Sending your message ...");
+            $.ajax({
+                type: "POST",
+                url: "{{ $.Site.Params.contactformaction }}",
+                data: formData,
+                success: function() {
+                    $("#response").text("{{ .successresponse }}");
+                    $("#submit").removeAttr("disabled");
+                },
+                error: function() {
+                    $("#response").text("{{ .failureresponse }}");
+                    $("#submit").removeAttr("disabled");
+                }
+            });
+        });
+    });
+
+    function validate(fieldId, message, target, validator) {
+        if (!validator($(fieldId).val())) {
+            $(target).text(message);
+            $(fieldId).focus();
+            return false;
+        } else {
+            $(target).text("");
+            return true;
+        }
+    }
+
+    function containsText(str) {
+        return str.trim().length > 0;
+    }
+
+    function looksLikeEmailAddress(str) {
+        return str.split("@").length == 2;
+    }
+</script>
+{{ end }}

@@ -1,0 +1,28 @@
+fields:
+    - type: name
+      label: お名前
+      name: name
+      id: inputName
+      validate: true
+    - type: email
+      label: メールアドレス
+      name: email
+      id: inputEmail
+      validate: true
+    - type: choice
+      name: lessonType
+      id: inputLessonType
+      label: ご希望のレッスン
+      values:
+        - プライベートレッスン
+        - グループレッスン
+        - どちらでも良い
+    - type: message
+      label: メッセージ
+      name: message
+      id: message
+      validate: true
+
+submittext: 送信
+successresponse: ありがとうございます。メールは無事に送信されました。
+failureresponse: メッセージが送れませんでした。もう一度お送りください。

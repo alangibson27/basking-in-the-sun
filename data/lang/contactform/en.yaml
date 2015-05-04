@@ -1,0 +1,28 @@
+fields:
+    - type: name
+      label: Name
+      name: name
+      id: inputName
+      validate: true
+    - type: email
+      label: Address
+      name: email
+      id: inputEmail
+      validate: true
+    - type: choice
+      name: lessonType
+      id: inputLessonType
+      label: Lesson Type
+      values:
+        - Private
+        - Group
+        - Either
+    - type: message
+      label: Message
+      name: message
+      id: message
+      validate: true
+
+submittext: Send
+successresponse: Thank-you. Your message has been sent.
+failureresponse: Unfortunately, your message could not be sent. Please try again later.

@@ -1,4 +1,4 @@
-{{ "<!--[if IE 8]>" | safeHtml }}
+{{ "<!--[if IE 8]>" | safeHTML }}
 <script>
 document.createElement('header');
 document.createElement('nav');
@@ -8,7 +8,7 @@ document.createElement('aside');
 document.createElement('footer');
 document.createElement('hgroup');
 </script>
-{{ "<![endif]-->" | safeHtml }}
+{{ "<![endif]-->" | safeHTML }}
 
 <div class="pagetop">
     <img class="toplogo" src="{{ .Site.Params.logo }}"/>

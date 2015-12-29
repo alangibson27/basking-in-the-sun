@@ -10,11 +10,11 @@ title = "レッスン"
 {{% /center %}}
 
 {{% button-bar %}}
-{{% button http://images.baskinginthesun.co.uk/butterfly.png /lessons/visit %}}
+{{% button "http://images.baskinginthesun.co.uk/butterfly.png" "/lessons/visit" %}}
 出張レッスン
 {{% /button %}}
 
-{{% button http://images.baskinginthesun.co.uk/flower.png /lessons/home %}}
+{{% button "http://images.baskinginthesun.co.uk/flower.png" "/lessons/home" %}}
 自宅レッスン
 {{% /button %}}
 {{% /button-bar %}}

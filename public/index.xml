@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-      <title>Recent Content on ひなたぼっこ </title>
-      <generator uri="https://hugo.spf13.com">Hugo</generator>
-    <link>http://www.baskinginthesun.co.uk/index.xml/</link>
+    <title>ひなたぼっこ</title>
+    <link>http://www.baskinginthesun.co.uk/</link>
+    <description>Recent content on ひなたぼっこ</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    
-    
-    <updated>Wed, 26 Nov 2014 22:17:16 UTC</updated>
+    <lastBuildDate>Wed, 26 Nov 2014 22:17:16 +0000</lastBuildDate>
+    <atom:link href="http://www.baskinginthesun.co.uk/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ご予約・お問い合わせ</title>
       <link>http://www.baskinginthesun.co.uk/contact/</link>
-      <pubDate>Wed, 26 Nov 2014 22:17:16 UTC</pubDate>
+      <pubDate>Wed, 26 Nov 2014 22:17:16 +0000</pubDate>
       
       <guid>http://www.baskinginthesun.co.uk/contact/</guid>
       <description>&lt;p&gt;レッスンのご質問、ご予約、メッセージなどは
@@ -35,7 +35,7 @@ Eメール、お電話、または下記メールフォームより&lt;br&gt;
     <item>
       <title>FAQ</title>
       <link>http://www.baskinginthesun.co.uk/faq/</link>
-      <pubDate>Wed, 26 Nov 2014 22:17:07 UTC</pubDate>
+      <pubDate>Wed, 26 Nov 2014 22:17:07 +0000</pubDate>
       
       <guid>http://www.baskinginthesun.co.uk/faq/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Q1. ベビーマッサージはいつから始められますか？&lt;/strong&gt;&lt;/p&gt;
@@ -46,7 +46,15 @@ Eメール、お電話、または下記メールフォームより&lt;br&gt;
 &lt;p&gt;赤ちゃんの月齢に沿ってマッサージの方法を変えていきます。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;Q2. マッサージ中に赤ちゃんが泣きだしたら？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q2. 赤ちゃんにマッサージをするのは誰ですか？（インストラクター or お母さん？）&lt;/strong&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;お母さんです。インストラクターは人形を使ってマッサージの方法をお見せします。&lt;/p&gt;
+
+&lt;p&gt;実際にお母さんが赤ちゃんをマッサージをしながら、流れを覚えていただけます。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Q3. マッサージ中に赤ちゃんが泣きだしたら？&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;マッサージはとめて、一息つきましょう。&lt;/p&gt;
@@ -56,7 +64,7 @@ Eメール、お電話、または下記メールフォームより&lt;br&gt;
 &lt;p&gt;レッスンでは毎回、復習とプリントをお渡しするので、当日できなくてもご安心ください。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;Q3. どんなオイルを使うの？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q4. どんなオイルを使うの？&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;レッスンでも選ぶ基準等お話します。&lt;/p&gt;
@@ -64,7 +72,7 @@ Eメール、お電話、または下記メールフォームより&lt;br&gt;
 &lt;p&gt;当教室では、オーガニックの「ホホバオイル」か「サンフラワーオイル」を使用します。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;Q4. オイルは必ず使わないといけないですか？&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q5. オイルは必ず使わないといけないですか？&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;赤ちゃんの肌を摩擦から守りながら、お母さんもスムーズにマッサージができるように
@@ -78,7 +86,7 @@ Eメール、お電話、または下記メールフォームより&lt;br&gt;
     <item>
       <title>ママの声</title>
       <link>http://www.baskinginthesun.co.uk/testimonial/</link>
-      <pubDate>Wed, 26 Nov 2014 22:16:58 UTC</pubDate>
+      <pubDate>Wed, 26 Nov 2014 22:16:58 +0000</pubDate>
       
       <guid>http://www.baskinginthesun.co.uk/testimonial/</guid>
       <description>&lt;p&gt;レッスンを受けてくださったママ達から感想をいただきました。その一部をご紹介します。&lt;/p&gt;
@@ -93,7 +101,7 @@ Eメール、お電話、または下記メールフォームより&lt;br&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div&gt;
+&lt;p&gt;&lt;div&gt;
     &lt;div class=&#34;testimonial&#34;&gt;
         &lt;p&gt;Sさん（４か月の女の子と参加、グループレッスン）&lt;/p&gt;
         &lt;p&gt;&lt;p&gt;赤ちゃんとゆっくり過ごす時間を作ることができた。&lt;br&gt;
@@ -102,18 +110,18 @@ Eメール、お電話、または下記メールフォームより&lt;br&gt;
 レジュメをもらえるのが良い。&lt;/p&gt;
 &lt;/p&gt;
     &lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
-&lt;div&gt;
+&lt;p&gt;&lt;div&gt;
     &lt;div class=&#34;testimonial&#34;&gt;
         &lt;p&gt;美貴さん（７か月の女の子と参加、グループレッスン）&lt;/p&gt;
         &lt;p&gt;&lt;p&gt;便秘があったので、お腹のマッサージを試したところお通じがあり、その後毎日あります。&lt;br&gt;
 話し方がやわらかく丁寧なので、優しい、なごやかな雰囲気でレッスンが行われている。&lt;br&gt;&lt;/p&gt;
 &lt;/p&gt;
     &lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
-&lt;div&gt;
+&lt;p&gt;&lt;div&gt;
     &lt;div class=&#34;testimonial&#34;&gt;
         &lt;p&gt;早紀子さん（６か月の男の子と参加、出張レッスン）&lt;/p&gt;
         &lt;p&gt;&lt;p&gt;最初から最後まで、自分のペースで教えてもらえるので、焦らずゆっくりできた。&lt;br&gt;
@@ -121,23 +129,23 @@ Eメール、お電話、または下記メールフォームより&lt;br&gt;
 歌をうたいながらのマッサージも楽しかった。&lt;br&gt;&lt;/p&gt;
 &lt;/p&gt;
     &lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
-&lt;div&gt;
+&lt;p&gt;&lt;div&gt;
     &lt;div class=&#34;testimonial&#34;&gt;
         &lt;p&gt;Nさん（５か月の男の子と参加、グループレッスン）&lt;/p&gt;
         &lt;p&gt;&lt;p&gt;普段からコミュニケーションをとろうと思っているが、実際にどう触れるのが良いかわからないので、ちゃんと学べて安心してできます。&lt;br&gt;
 ベビーマッサージをして赤ちゃんの手足を温めることができるようになったかな。&lt;/p&gt;
 &lt;/p&gt;
     &lt;/div&gt;
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>講師プロフィール</title>
       <link>http://www.baskinginthesun.co.uk/profile/</link>
-      <pubDate>Wed, 26 Nov 2014 22:16:45 UTC</pubDate>
+      <pubDate>Wed, 26 Nov 2014 22:16:45 +0000</pubDate>
       
       <guid>http://www.baskinginthesun.co.uk/profile/</guid>
       <description>&lt;p&gt;はじめまして。ひなたぼっこを主催しております　ギブソン直子　です。&lt;br&gt;
@@ -169,7 +177,7 @@ IAIM国際インファントマッサージのインストラクターとして&
     <item>
       <title>レッスン</title>
       <link>http://www.baskinginthesun.co.uk/lessons/overview/</link>
-      <pubDate>Wed, 26 Nov 2014 21:54:51 UTC</pubDate>
+      <pubDate>Wed, 26 Nov 2014 21:54:51 +0000</pubDate>
       
       <guid>http://www.baskinginthesun.co.uk/lessons/overview/</guid>
       <description>&lt;div&gt;
@@ -182,7 +190,7 @@ IAIM国際インファントマッサージのインストラクターとして&
 
 &lt;div class=&#34;button-bar&#34;&gt;
     &lt;div class=&#34;button&#34;&gt;
-    &lt;a href=&#34;/lessons/visit&#34;&gt;
+    &lt;a href=&#34;http://www.baskinginthesun.co.uk/lessons/visit&#34;&gt;
     &lt;img src=&#34;http://images.baskinginthesun.co.uk/butterfly.png&#34;/&gt;
 &lt;span&gt;&lt;p&gt;出張レッスン&lt;/p&gt;
 &lt;/span&gt;
@@ -190,7 +198,7 @@ IAIM国際インファントマッサージのインストラクターとして&
 &lt;/div&gt;
 
 &lt;div class=&#34;button&#34;&gt;
-    &lt;a href=&#34;/lessons/home&#34;&gt;
+    &lt;a href=&#34;http://www.baskinginthesun.co.uk/lessons/home&#34;&gt;
     &lt;img src=&#34;http://images.baskinginthesun.co.uk/flower.png&#34;/&gt;
 &lt;span&gt;&lt;p&gt;自宅レッスン&lt;/p&gt;
 &lt;/span&gt;
@@ -199,18 +207,18 @@ IAIM国際インファントマッサージのインストラクターとして&
 
 &lt;p&gt;&lt;/div&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;p&gt;「ベビーマッサージが気になるな〜」と思った時が始め時です♪&lt;br&gt;
+&lt;p&gt;「ベビーマッサージが気になるな〜」と思った時が始め時です♪&lt;br&gt;
 ご都合に合わせて、お好きなレッスンをお選びください。&lt;/p&gt;
 &lt;/p&gt;
     &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>自宅レッスン</title>
       <link>http://www.baskinginthesun.co.uk/lessons/home/</link>
-      <pubDate>Wed, 26 Nov 2014 21:54:51 UTC</pubDate>
+      <pubDate>Wed, 26 Nov 2014 21:54:51 +0000</pubDate>
       
       <guid>http://www.baskinginthesun.co.uk/lessons/home/</guid>
       <description>
@@ -228,7 +236,7 @@ IAIM国際インファントマッサージのインストラクターとして&
 
 &lt;/div&gt;
 
-&lt;h3 id=&#34;toc_0&#34;&gt;レッスン内容&lt;/h3&gt;
+&lt;h3 id=&#34;レッスン内容:b9bcf8cb73ce4a081a635ad7c0acd9dd&#34;&gt;レッスン内容&lt;/h3&gt;
 
 &lt;p&gt;&lt;em&gt;対象年齢&lt;/em&gt;&lt;/p&gt;
 
@@ -242,7 +250,7 @@ IAIM国際インファントマッサージのインストラクターとして&
 
 &lt;p&gt;&lt;em&gt;定員&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;１組〜３組様&lt;/p&gt;
@@ -251,17 +259,17 @@ IAIM国際インファントマッサージのインストラクターとして&
 その方々とのグループレッスンになる場合もございますが、その際は事前にご相談させていただきます）&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;コース&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;週１回　全４回（各９０分）&lt;/p&gt;
 
-&lt;p&gt;赤ちゃんにとってマッサージは初めての体験。
-  ゆっくりと、赤ちゃんと対話しながら全身のマッサージをしていきます。&lt;/p&gt;
+&lt;p&gt;赤ちゃんにとってマッサージは初めての体験。ゆっくりと、赤ちゃんと対話しながら全身のマッサージをしていきます。
+  （教室ではインストラクターが人形を使ってマッサージの方法をお見せしますので、お母さんは実際にマッサージをしながら流れを覚えていただけます）&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;div class=&#34;inset&#34;&gt;
@@ -275,11 +283,11 @@ IAIM国際インファントマッサージのインストラクターとして&
 
 &lt;/div&gt;
 
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;料金（費用に含まれるもの：当日レッスンで使用するオイル、テキスト、ハーブティー）&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;１回　£１５&lt;/p&gt;
@@ -287,11 +295,11 @@ IAIM国際インファントマッサージのインストラクターとして&
 &lt;p&gt;４回分一括払いの場合　£５５になります&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;キャンセル&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;当日のレッスン２時間前までにご連絡ください。後日に振替いたします。&lt;/p&gt;
@@ -299,11 +307,11 @@ IAIM国際インファントマッサージのインストラクターとして&
 &lt;p&gt;赤ちゃんの発熱時、体調不良時、予防接種直後等もマッサージはお休みください。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;ご用意いただくもの&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;バスタオル　１枚&lt;/p&gt;
@@ -315,11 +323,11 @@ IAIM国際インファントマッサージのインストラクターとして&
 &lt;p&gt;いつものお出かけセット&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;オイル&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;当教室ではオーガニックの「ホホバオイル」か「サンフラワーオイル」を使用しています。&lt;/p&gt;
@@ -327,7 +335,7 @@ IAIM国際インファントマッサージのインストラクターとして&
 &lt;p&gt;お気に入りのものがあれば講師にご相談ください。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;スケジュール&lt;/em&gt;&lt;/p&gt;
 
@@ -343,7 +351,7 @@ IAIM国際インファントマッサージのインストラクターとして&
     <item>
       <title>出張レッスン</title>
       <link>http://www.baskinginthesun.co.uk/lessons/visit/</link>
-      <pubDate>Wed, 26 Nov 2014 21:54:47 UTC</pubDate>
+      <pubDate>Wed, 26 Nov 2014 21:54:47 +0000</pubDate>
       
       <guid>http://www.baskinginthesun.co.uk/lessons/visit/</guid>
       <description>
@@ -360,7 +368,7 @@ IAIM国際インファントマッサージのインストラクターとして&
 
 &lt;/div&gt;
 
-&lt;h3 id=&#34;toc_0&#34;&gt;レッスン内容&lt;/h3&gt;
+&lt;h3 id=&#34;レッスン内容:cb8faa01c287ad59ea1c91f75e273817&#34;&gt;レッスン内容&lt;/h3&gt;
 
 &lt;p&gt;&lt;em&gt;対象年齢&lt;/em&gt;&lt;/p&gt;
 
@@ -386,12 +394,13 @@ IAIM国際インファントマッサージのインストラクターとして&
 
 &lt;p&gt;&lt;em&gt;コース&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;週１回　全４回（各９０分）&lt;/p&gt;
 
-&lt;p&gt;赤ちゃんにとってマッサージは初めての体験。ゆっくりと、赤ちゃんと対話しながら全身のマッサージをしていきます。&lt;/p&gt;
+&lt;p&gt;赤ちゃんにとってマッサージは初めての体験。ゆっくりと、赤ちゃんと対話しながら全身のマッサージをしていきます。
+  （教室ではインストラクターが人形を使ってマッサージの方法をお見せしますので、お母さんは実際にマッサージをしながら流れを覚えていただけます）&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;div class=&#34;inset&#34;&gt;
@@ -405,11 +414,11 @@ IAIM国際インファントマッサージのインストラクターとして&
 
 &lt;/div&gt;
 
-&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;料金（費用に含まれるもの：当日レッスンで使用するオイル、テキスト）&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;1回　£２０（別途交通費を頂いております）&lt;/p&gt;
@@ -417,11 +426,11 @@ IAIM国際インファントマッサージのインストラクターとして&
 &lt;p&gt;4回分一括払いの場合　£７５になります（別途交通費を頂いております）&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;キャンセル&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;当日のレッスン２時間前までにご連絡ください。後日に振替いたします。&lt;/p&gt;
@@ -429,11 +438,11 @@ IAIM国際インファントマッサージのインストラクターとして&
 &lt;p&gt;赤ちゃんの発熱時、体調不良時、予防接種直後等もマッサージはお休みください。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;ご用意いただくもの&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;バスタオル　１枚&lt;/p&gt;
@@ -447,11 +456,11 @@ IAIM国際インファントマッサージのインストラクターとして&
 &lt;p&gt;いつものお出かけセット&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;オイル&lt;/em&gt;&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;当教室ではオーガニックの「ホホバオイル」か「サンフラワーオイル」を使用しています。&lt;/p&gt;
@@ -459,7 +468,7 @@ IAIM国際インファントマッサージのインストラクターとして&
 &lt;p&gt;お気に入りのものがあれば、講師にご相談ください。&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;スケジュール&lt;/em&gt;&lt;/p&gt;
 
@@ -476,7 +485,7 @@ IAIM国際インファントマッサージのインストラクターとして&
     <item>
       <title>インファントマッサージとは?</title>
       <link>http://www.baskinginthesun.co.uk/about/</link>
-      <pubDate>Wed, 26 Nov 2014 20:56:02 UTC</pubDate>
+      <pubDate>Wed, 26 Nov 2014 20:56:02 +0000</pubDate>
       
       <guid>http://www.baskinginthesun.co.uk/about/</guid>
       <description>&lt;div class=&#34;intro&#34;&gt;
@@ -487,7 +496,7 @@ IAIM国際インファントマッサージのインストラクターとして&
 
 &lt;p&gt;赤ちゃんは&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;大好きなママやパパにふれられることで、手のぬくもりを感じながら安心感や満足感に包まれることができます。&lt;/p&gt;&lt;/li&gt;
@@ -498,11 +507,11 @@ IAIM国際インファントマッサージのインストラクターとして&
 期待できます。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
 &lt;p&gt;ママやパパは&lt;/p&gt;
 
-&lt;div class=&#34;content-block&#34;
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
      &gt;
     &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;赤ちゃんの笑顔や安心した姿を見ることで気持ちが穏やかになり、子育てへの喜びを感じることできます。&lt;/p&gt;&lt;/li&gt;
@@ -510,14 +519,14 @@ IAIM国際インファントマッサージのインストラクターとして&
 &lt;li&gt;&lt;p&gt;スキンシップを通して、赤ちゃんの気持ちや体調の変化を感じとりやすくなり、子育てへの自信が芽生えます。&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
-&lt;div class=&#34;intro&#34;&gt;
+&lt;p&gt;&lt;div class=&#34;intro&#34;&gt;
     &lt;p&gt;お互いのぬくもりを感じながら過ごす時間は、赤ちゃんに安心感と信頼感を与えます。&lt;br&gt;
 安心した我が子の姿を見ることで、ママやパパもまた、リラックスしていきます。&lt;br&gt;
 そんな、ゆったりとした時間を親子で過ごせる１つの方法として「インファントマッサージ」があります。&lt;/p&gt;
 
-&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     

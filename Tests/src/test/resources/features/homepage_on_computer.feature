@@ -2,9 +2,9 @@ Feature: Home page on a computer
 
   Background:
     Given I am browsing on a computer
+    And I navigate to the home page
 
   Scenario Outline: Home page loads correctly and all links work
-    Given I navigate to the home page
     When I click on the link that says <link text>
     Then I am taken to the <target> page
   Examples:
@@ -18,7 +18,6 @@ Feature: Home page on a computer
     | お問い合わせ          | contact          |
 
   Scenario: Hovering over レッスン correctly pops up menu
-    Given I navigate to the home page
     When I hover over the link that says レッスン
     Then a submenu pops up
     And it contains the following options
@@ -26,9 +25,8 @@ Feature: Home page on a computer
       | 自宅レッスン |
 
   Scenario Outline: Links can be selected on レッスン submenu
-    Given I navigate to the home page
-    And I hover over the link that says レッスン
-    When I click on the link that says <link text>
+    When I hover over the link that says レッスン
+    And I click on the link that says <link text>
     Then I am taken to the <target> page
   Examples:
     | link text | target |
@@ -36,7 +34,6 @@ Feature: Home page on a computer
     | 自宅レッスン | lessons/home |
 
    Scenario: Moving away from レッスン correctly hides menu
-     Given I navigate to the home page
-     And I hover over the link that says レッスン
-     When I move away from the link
+     When I hover over the link that says レッスン
+     And I move away from the link
      Then the submenu disappears

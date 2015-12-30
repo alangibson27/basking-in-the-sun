@@ -2,20 +2,18 @@ Feature: Home page on a phone
 
   Background:
     Given I am browsing on a phone
+    And I navigate to the home page
     
   Scenario: Navigation menu displays when menu is clicked
-    Given I navigate to the home page
     When I click on the link that says メニュー
     Then the navigation menu expands
 
   Scenario: Navigation menu hides when menu is clicked a second time
-    Given I navigate to the home page
     When I click on the link that says メニュー
     And I click again on the link that says メニュー
     Then the navigation menu hides
     
   Scenario Outline: All links on navigation menu are available and work
-    Given I navigate to the home page
     When I click on the link that says メニュー
     And I then click on the link that says <link text>
     Then I am taken to the <target> page

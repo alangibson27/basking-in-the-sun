@@ -5,7 +5,7 @@ import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "features",
-                 format = {"json:target/integration_cucumber.json"})
-public class RunTests {
+@CucumberOptions(features = "src/test/resources/features",
+                 format = {"pretty", "json:target/integration_cucumber.json"})
+public class Test {
 }

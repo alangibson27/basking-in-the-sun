@@ -2,7 +2,7 @@
 echo -e "\033[0;32mDeploying public site updates to GitHub...\033[0m"
 
 # Build the project. 
-hugo -t hinatabokko 
+hugo -t hinatabokko -d ../public
 
 # Add changes to git.
 git add -A

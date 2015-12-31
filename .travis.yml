@@ -2,6 +2,6 @@ language: java
 before_install:
     - wget https://github.com/spf13/hugo/releases/download/v0.15/hugo_0.15_i386.deb
     - sudo dpkg -i hugo_0.15_i386.deb
-    - hugo server --source=Site --destination=.hugolocal --buildDrafts=true --theme=hinatabokko
+    - ./localSite.sh
 script:
     - mvn -f Tests -DhostAndPort=localhost:1313 test

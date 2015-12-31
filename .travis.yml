@@ -1,4 +1,4 @@
 language:java
 before_install: ./installHugo.sh
 before_script: ./localSite.sh
-script: mvn -DhostAndPort=localhost:1313 test
+script: mvn -f Tests -DhostAndPort=localhost:1313 test

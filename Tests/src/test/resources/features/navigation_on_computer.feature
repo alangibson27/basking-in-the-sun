@@ -1,4 +1,4 @@
-Feature: Home page on a computer
+Feature: Navigation on a computer
 
   Background:
     Given I am browsing on a computer

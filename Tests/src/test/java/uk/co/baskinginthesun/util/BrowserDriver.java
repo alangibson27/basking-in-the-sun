@@ -19,7 +19,7 @@ public class BrowserDriver {
 
     private static WebDriver webDriver;
 
-    public synchronized static WebDriver getCurrentDriver() {
+    private synchronized static WebDriver getCurrentDriver() {
         if (webDriver == null) {
             try {
                 final DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -55,8 +55,16 @@ public class BrowserDriver {
         getCurrentDriver().get(urlWithPath(path));
     }
 
+    public static void setWindowSize(final Dimension size) {
+        getCurrentDriver().manage().window().setSize(size);
+    }
+
     public static WebElement findLinkByText(final String linkText) {
         return getCurrentDriver().findElement(By.linkText(linkText));
+    }
+
+    public static WebElement findElementByPath(final String path) {
+        return getCurrentDriver().findElement(By.xpath(path));
     }
 
     public static Actions user() {
@@ -64,6 +72,14 @@ public class BrowserDriver {
     }
 
     public static WebDriverWait pause() {
-        return new WebDriverWait(BrowserDriver.getCurrentDriver(), 1);
+        return new WebDriverWait(BrowserDriver.getCurrentDriver(), 5);
+    }
+
+    public static String getUrl() {
+        return getCurrentDriver().getCurrentUrl();
+    }
+
+    public static String getPageSource() {
+        return getCurrentDriver().getPageSource();
     }
 }

@@ -1,4 +1,4 @@
-Feature: Home page on a phone
+Feature: Navigation on a phone
 
   Background:
     Given I am browsing on a phone

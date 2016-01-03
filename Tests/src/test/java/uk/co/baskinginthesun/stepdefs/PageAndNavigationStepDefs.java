@@ -1,7 +1,6 @@
 package uk.co.baskinginthesun.stepdefs;
 
 import cucumber.api.DataTable;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -9,19 +8,16 @@ import cucumber.api.java.en.When;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import uk.co.baskinginthesun.util.BrowserDriver;
 
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 import static org.openqa.selenium.By.cssSelector;
-import static org.openqa.selenium.support.ui.ExpectedConditions.invisibilityOfElementLocated;
-import static org.openqa.selenium.support.ui.ExpectedConditions.urlToBe;
-import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
+import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 import static uk.co.baskinginthesun.util.BrowserDriver.*;
 import static uk.co.baskinginthesun.util.Config.urlWithPath;
 
-public class HomePageStepDefs {
+public class PageAndNavigationStepDefs {
     private static final String POP_UP_MENU_SELECTOR = "nav ul li ul";
     private static final String NAV_MENU_SELECTOR = "nav ul";
 
@@ -118,17 +114,5 @@ public class HomePageStepDefs {
     public void the_calendar_is_shown_in_agenda_format() {
         pause().until(visibilityOfElementLocated(By.xpath("//iframe[@class='iframe agenda']")));
         pause().until(invisibilityOfElementLocated(By.xpath("//iframe[@class='iframe calendar']")));
-    }
-
-    @And("^the contact email address is correct$")
-    public void the_contact_email_address_is_correct() {
-        final WebElement mailLink = findLinkByText("baskinginthesun22@gmail.com");
-        assertThat(mailLink).isNotNull();
-        assertThat(mailLink.getAttribute("href")).isEqualTo("mailto:baskinginthesun22@gmail.com");
-    }
-
-    @And("^the contact telephone number is correct$")
-    public void the_contact_telephone_number_is_correct() {
-        assertThat(getPageSource()).contains("07454 005 647");
     }
 }

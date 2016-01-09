@@ -1,6 +1,7 @@
 package uk.co.baskinginthesun.stepdefs;
 
 import cucumber.api.DataTable;
+import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -11,15 +12,27 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import uk.co.baskinginthesun.util.BrowserDriver;
 
+import java.io.IOException;
+
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 import static org.openqa.selenium.By.cssSelector;
 import static org.openqa.selenium.support.ui.ExpectedConditions.*;
 import static uk.co.baskinginthesun.util.BrowserDriver.*;
-import static uk.co.baskinginthesun.util.Config.urlWithPath;
 
 public class PageAndNavigationStepDefs {
     private static final String POP_UP_MENU_SELECTOR = "nav ul li ul";
     private static final String NAV_MENU_SELECTOR = "nav ul";
+
+    private static final boolean liveTest = Boolean.parseBoolean(System.getProperty("liveTest", "false"));
+
+    private int sitePort;
+
+    @Before
+    public void startServer() throws IOException, InterruptedException {
+        if (!liveTest) {
+            this.sitePort = HugoServer.startSite();
+        }
+    }
 
     @Given("^I am browsing on a computer$")
     public void Browser_window_is_large() {
@@ -33,10 +46,17 @@ public class PageAndNavigationStepDefs {
 
     @Given("^I navigate to the (.+) page$")
     public void I_navigate_to_the_home_page(final String page) {
-        if ("home".equals(page)) {
-            loadPage("");
+        loadPage(urlForPage(page));
+    }
+
+    public String urlForPage(final String page) {
+        final String host = liveTest ? "www.baskinginthesun.co.uk" : "localhost";
+        final String port = liveTest ? "" : ":" + String.valueOf(sitePort);
+        final String path = "home".equals(page) ? "" : page;
+        if (path.length() > 0) {
+            return String.format("http://%s%s/%s/", host, port, path);
         } else {
-            loadPage(page);
+            return String.format("http://%s%s/", host, port);
         }
     }
 
@@ -47,8 +67,7 @@ public class PageAndNavigationStepDefs {
 
     @Then("^I am taken to the (.+) page$")
     public void I_am_taken_to_the_target_page(final String path) {
-        final String realPath = "<home>".equals(path) ? "" : path;
-        pause().until(urlToBe(urlWithPath(realPath)));
+        pause().until(urlToBe(urlForPage(path)));
     }
 
     @When("^I hover over the link that says (.+)$")

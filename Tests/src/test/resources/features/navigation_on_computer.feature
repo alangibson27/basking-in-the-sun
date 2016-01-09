@@ -9,7 +9,7 @@ Feature: Navigation on a computer
     Then I am taken to the <target> page
   Examples:
     | link text       | target           |
-    | ホーム             | <home>           |
+    | ホーム             | home             |
     | インファンとマッサージーとは？ | about            |
     | レッスン            | lessons/overview |
     | プロフィール          | profile          |

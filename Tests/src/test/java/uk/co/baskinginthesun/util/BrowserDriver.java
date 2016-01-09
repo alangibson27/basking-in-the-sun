@@ -12,8 +12,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.logging.Logger;
 
-import static uk.co.baskinginthesun.util.Config.urlWithPath;
-
 public class BrowserDriver {
     private static Logger LOGGER = Logger.getLogger(BrowserDriver.class.getName());
 
@@ -51,8 +49,8 @@ public class BrowserDriver {
         }
     }
 
-    public static void loadPage(final String path){
-        getCurrentDriver().get(urlWithPath(path));
+    public static void loadPage(final String url){
+        getCurrentDriver().get(url);
     }
 
     public static void setWindowSize(final Dimension size) {

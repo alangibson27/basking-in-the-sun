@@ -19,7 +19,7 @@ Feature: Navigation on a phone
     Then I am taken to the <target> page
   Examples:
     | link text       | target           |
-    | ホーム             | <home>           |
+    | ホーム             | home             |
     | インファンとマッサージーとは？ | about            |
     | レッスン            | lessons/overview |
     | 出張レッスン | lessons/visit |

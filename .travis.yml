@@ -4,6 +4,6 @@ jdk:
 before_install:
     - wget https://github.com/spf13/hugo/releases/download/v0.15/hugo_0.15_i386.deb
     - sudo dpkg -i hugo_0.15_i386.deb
-    - ./localSite.sh
 script:
-    - mvn -f Tests -DhostAndPort=localhost:1313 test
+    - mvn -f Tests -DliveTest=false test
+    - mvn -f Tests -DliveTest=true test

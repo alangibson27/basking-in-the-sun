@@ -47,7 +47,7 @@
             $("#response").text("Sending your message ...");
             $.ajax({
                 type: "POST",
-                url: "{{ .Site.Params.contactformaction }}",
+                url: "{{ .Params.contactformaction }}",
                 data: formData,
                 success: function() {
                     $("#response").text("ありがとうございます。メールは無事に送信されました。");

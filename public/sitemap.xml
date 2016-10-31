@@ -4,6 +4,10 @@
   <url>
     <loc>http://www.baskinginthesun.co.uk/</loc>
     <lastmod>2014-11-26T22:17:16+00:00</lastmod>
+<<<<<<< HEAD
+=======
+    <priority>0</priority>
+>>>>>>> 47ef5c84bcb0f73aca87bed46718e79fc82a3ce4
   </url>
   
   <url>
@@ -27,6 +31,19 @@
   </url>
   
   <url>
+<<<<<<< HEAD
+=======
+    <loc>http://www.baskinginthesun.co.uk/lessons/overview/</loc>
+    <lastmod>2014-11-26T21:54:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.baskinginthesun.co.uk/lessons/home/</loc>
+    <lastmod>2014-11-26T21:54:51+00:00</lastmod>
+  </url>
+  
+  <url>
+>>>>>>> 47ef5c84bcb0f73aca87bed46718e79fc82a3ce4
     <loc>http://www.baskinginthesun.co.uk/lessons/visit/</loc>
     <lastmod>2014-11-26T21:54:47+00:00</lastmod>
   </url>

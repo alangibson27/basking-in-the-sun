@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Lessons-rsses on ひなたぼっこ</title>
     <link>http://www.baskinginthesun.co.uk/lessons/index.xml</link>
     <description>Recent content in Lessons-rsses on ひなたぼっこ</description>
@@ -10,6 +11,191 @@
     <atom:link href="http://www.baskinginthesun.co.uk/lessons/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+=======
+    <title>Lessons on ひなたぼっこ</title>
+    <link>http://www.baskinginthesun.co.uk/lessons/</link>
+    <description>Recent content in Lessons on ひなたぼっこ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Wed, 26 Nov 2014 21:54:51 +0000</lastBuildDate>
+    <atom:link href="http://www.baskinginthesun.co.uk/lessons/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>レッスン</title>
+      <link>http://www.baskinginthesun.co.uk/lessons/overview/</link>
+      <pubDate>Wed, 26 Nov 2014 21:54:51 +0000</pubDate>
+      
+      <guid>http://www.baskinginthesun.co.uk/lessons/overview/</guid>
+      <description>&lt;div&gt;
+    &lt;div class=&#34;narrow&#34;&gt;
+        &lt;p&gt;&lt;div style=&#34;text-align: center&#34;&gt;
+    &lt;p&gt;皆様のご自宅に出張させていただく「出張レッスン」と、&lt;br&gt;
+講師宅での「自宅レッスン」を行っております。&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&#34;button-bar&#34;&gt;
+    &lt;div class=&#34;button&#34;&gt;
+    &lt;a href=&#34;http://www.baskinginthesun.co.uk/lessons/visit&#34;&gt;
+    &lt;img src=&#34;http://images.baskinginthesun.co.uk/butterfly.png&#34;/&gt;
+&lt;span&gt;&lt;p&gt;出張レッスン&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;button&#34;&gt;
+    &lt;a href=&#34;http://www.baskinginthesun.co.uk/lessons/home&#34;&gt;
+    &lt;img src=&#34;http://images.baskinginthesun.co.uk/flower.png&#34;/&gt;
+&lt;span&gt;&lt;p&gt;自宅レッスン&lt;/p&gt;
+&lt;/span&gt;
+    &lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;「ベビーマッサージが気になるな〜」と思った時が始め時です♪&lt;br&gt;
+ご都合に合わせて、お好きなレッスンをお選びください。&lt;/p&gt;
+&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>自宅レッスン</title>
+      <link>http://www.baskinginthesun.co.uk/lessons/home/</link>
+      <pubDate>Wed, 26 Nov 2014 21:54:51 +0000</pubDate>
+      
+      <guid>http://www.baskinginthesun.co.uk/lessons/home/</guid>
+      <description>
+
+&lt;div class=&#34;intro&#34;&gt;
+    &lt;p&gt;現在、南西ロンドン（Zone4）にある講師自宅フラットでもレッスンを開催しております。&lt;/p&gt;
+
+&lt;p&gt;Richmond駅(District Line、Overground、National Rail) からバスで約１０分、&lt;br&gt;
+もしくはHounslow East駅(Piccadilly Line)からバスで約２０分の場所にあります。&lt;br&gt;
+両駅にはエレベータが完備されているので、ベビーカーでの移動もご心配ありません。&lt;/p&gt;
+
+&lt;p&gt;お車でお越しの際は、自宅前の道に駐車していただけます。（自宅前の道は駐車規制圏外です）&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#calendar&#34;&gt;スケジュールは下記のカレンダーをご覧ください。&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;h3 id=&#34;レッスン内容:b9bcf8cb73ce4a081a635ad7c0acd9dd&#34;&gt;レッスン内容&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;対象年齢&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&#34;content-block&#34;
+     &gt;
+    &lt;blockquote&gt;
+&lt;p&gt;生後２ヶ月〜はいはいの頃までの赤ちゃんとお母さん（お父さんもご一緒に参加いただけます）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;定員&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
+     &gt;
+    &lt;blockquote&gt;
+&lt;p&gt;１組〜３組様&lt;/p&gt;
+
+&lt;p&gt;（プライベートレッスン、またはお友達とご一緒のグループレッスンが可能です。レッスンの希望日が同日の方がいる場合、
+その方々とのグループレッスンになる場合もございますが、その際は事前にご相談させていただきます）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;コース&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
+     &gt;
+    &lt;blockquote&gt;
+&lt;p&gt;週１回　全４回（各９０分）&lt;/p&gt;
+
+&lt;p&gt;赤ちゃんにとってマッサージは初めての体験。ゆっくりと、赤ちゃんと対話しながら全身のマッサージをしていきます。
+  （教室ではインストラクターが人形を使ってマッサージの方法をお見せしますので、お母さんは実際にマッサージをしながら流れを覚えていただけます）&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&#34;inset&#34;&gt;
+    &lt;p&gt;１回目　足、腹部のマッサージ&lt;/p&gt;
+
+&lt;p&gt;２回目　前回の復習、胸、腕、顔のマッサージ&lt;/p&gt;
+
+&lt;p&gt;３回目　前回の復習、背中のマッサージ、赤ちゃんストレッチ&lt;/p&gt;
+
+&lt;p&gt;４回目　マッサージの総復習、便秘時のマッサージ&lt;/p&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;料金（費用に含まれるもの：当日レッスンで使用するオイル、テキスト、ハーブティー）&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
+     &gt;
+    &lt;blockquote&gt;
+&lt;p&gt;１回　£１５&lt;/p&gt;
+
+&lt;p&gt;４回分一括払いの場合　£５５になります&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;キャンセル&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
+     &gt;
+    &lt;blockquote&gt;
+&lt;p&gt;当日のレッスン２時間前までにご連絡ください。後日に振替いたします。&lt;/p&gt;
+
+&lt;p&gt;赤ちゃんの発熱時、体調不良時、予防接種直後等もマッサージはお休みください。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;ご用意いただくもの&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
+     &gt;
+    &lt;blockquote&gt;
+&lt;p&gt;バスタオル　１枚&lt;/p&gt;
+
+&lt;p&gt;フェイスタオル　１枚&lt;/p&gt;
+
+&lt;p&gt;赤ちゃんの飲み物（母乳の方は不要です）&lt;/p&gt;
+
+&lt;p&gt;いつものお出かけセット&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;オイル&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
+     &gt;
+    &lt;blockquote&gt;
+&lt;p&gt;当教室ではオーガニックの「ホホバオイル」か「サンフラワーオイル」を使用しています。&lt;/p&gt;
+
+&lt;p&gt;お気に入りのものがあれば講師にご相談ください。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;スケジュール&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;特定のレッスン開始日はありませんので、いつでも始めていただけます。&lt;/p&gt;
+
+&lt;p&gt;レッスンは１０時～１５時開始の中でお好きな時間を選んでいただけます。
+カレンダーに表示している以外のお日にちでご希望がありましたら、お気軽にお問い合わせください。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+>>>>>>> 47ef5c84bcb0f73aca87bed46718e79fc82a3ce4
       <title>出張レッスン</title>
       <link>http://www.baskinginthesun.co.uk/lessons/visit/</link>
       <pubDate>Wed, 26 Nov 2014 21:54:47 +0000</pubDate>
@@ -18,16 +204,29 @@
       <description>
 
 &lt;div class=&#34;intro&#34;&gt;
+<<<<<<< HEAD
     &lt;p&gt;ベビーマッサージには興味があるけど。。。
 赤ちゃんを連れての外出が大変、産後でまだ体調が不安定等の心配も出張レッスンなら安心です。ご都合に合わせて講師がご自宅まで伺います。&lt;/p&gt;
 
 &lt;p&gt;赤ちゃんの慣れた環境で、ゆっくりとマッサージを楽しんでください。&lt;/p&gt;
+=======
+    &lt;p&gt;ベビーマッサージには興味があるけど。。。&lt;/p&gt;
+
+&lt;p&gt;赤ちゃんを連れての外出が大変、遠方で通えない、産後でまだ体調が不安定　などなど&lt;/p&gt;
+
+&lt;p&gt;そんな方に「出張レッスン」がおすすめです。
+ご都合に合わせて、講師がご自宅まで伺います。&lt;/p&gt;
+>>>>>>> 47ef5c84bcb0f73aca87bed46718e79fc82a3ce4
 
 &lt;p&gt;&lt;strong&gt;&lt;a href=&#34;#calendar&#34;&gt;スケジュールは下記のカレンダーをご覧ください。&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;/div&gt;
 
+<<<<<<< HEAD
 &lt;h3 id=&#34;レッスン内容&#34;&gt;レッスン内容&lt;/h3&gt;
+=======
+&lt;h3 id=&#34;レッスン内容:cb8faa01c287ad59ea1c91f75e273817&#34;&gt;レッスン内容&lt;/h3&gt;
+>>>>>>> 47ef5c84bcb0f73aca87bed46718e79fc82a3ce4
 
 &lt;p&gt;&lt;em&gt;対象年齢&lt;/em&gt;&lt;/p&gt;
 
@@ -53,7 +252,11 @@
 
 &lt;p&gt;&lt;em&gt;コース&lt;/em&gt;&lt;/p&gt;
 
+<<<<<<< HEAD
 &lt;div class=&#34;content-block&#34;
+=======
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
+>>>>>>> 47ef5c84bcb0f73aca87bed46718e79fc82a3ce4
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;週１回　全４回（各９０分）&lt;/p&gt;
@@ -73,11 +276,19 @@
 
 &lt;/div&gt;
 
+<<<<<<< HEAD
 &lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;料金（費用に含まれるもの：当日レッスンで使用するオイル、テキスト）&lt;/em&gt;&lt;/p&gt;
 
 &lt;div class=&#34;content-block&#34;
+=======
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;料金（費用に含まれるもの：当日レッスンで使用するオイル、テキスト）&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
+>>>>>>> 47ef5c84bcb0f73aca87bed46718e79fc82a3ce4
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;1回　£２０（別途交通費を頂いております）&lt;/p&gt;
@@ -85,11 +296,19 @@
 &lt;p&gt;4回分一括払いの場合　£７５になります（別途交通費を頂いております）&lt;/p&gt;
 &lt;/blockquote&gt;
 
+<<<<<<< HEAD
 &lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;キャンセル&lt;/em&gt;&lt;/p&gt;
 
 &lt;div class=&#34;content-block&#34;
+=======
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;キャンセル&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
+>>>>>>> 47ef5c84bcb0f73aca87bed46718e79fc82a3ce4
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;当日のレッスン２時間前までにご連絡ください。後日に振替いたします。&lt;/p&gt;
@@ -97,11 +316,19 @@
 &lt;p&gt;赤ちゃんの発熱時、体調不良時、予防接種直後等もマッサージはお休みください。&lt;/p&gt;
 &lt;/blockquote&gt;
 
+<<<<<<< HEAD
 &lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;ご用意いただくもの&lt;/em&gt;&lt;/p&gt;
 
 &lt;div class=&#34;content-block&#34;
+=======
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;ご用意いただくもの&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
+>>>>>>> 47ef5c84bcb0f73aca87bed46718e79fc82a3ce4
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;バスタオル　１枚&lt;/p&gt;
@@ -111,11 +338,19 @@
 &lt;p&gt;赤ちゃんの飲み物（母乳の方は不要です）&lt;/p&gt;
 &lt;/blockquote&gt;
 
+<<<<<<< HEAD
 &lt;/div&gt;
 
 &lt;p&gt;&lt;em&gt;オイル&lt;/em&gt;&lt;/p&gt;
 
 &lt;div class=&#34;content-block&#34;
+=======
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;オイル&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;content-block&#34;
+>>>>>>> 47ef5c84bcb0f73aca87bed46718e79fc82a3ce4
      &gt;
     &lt;blockquote&gt;
 &lt;p&gt;当教室ではオーガニックの「ホホバオイル」か「サンフラワーオイル」を使用しています。&lt;/p&gt;
@@ -123,7 +358,11 @@
 &lt;p&gt;お気に入りのものがあれば、講師にご相談ください。&lt;/p&gt;
 &lt;/blockquote&gt;
 
+<<<<<<< HEAD
 &lt;/div&gt;
+=======
+&lt;/div&gt;&lt;/p&gt;
+>>>>>>> 47ef5c84bcb0f73aca87bed46718e79fc82a3ce4
 
 &lt;p&gt;&lt;em&gt;スケジュール&lt;/em&gt;&lt;/p&gt;
 

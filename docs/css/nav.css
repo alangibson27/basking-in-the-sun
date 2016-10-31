@@ -1,0 +1,122 @@
+header, nav, section, article, aside, footer, hgroup {
+   display: block;
+}
+
+nav {
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+div.menubar {
+    display: none;
+}
+
+nav a {
+    display: block;
+    padding: 3px 6px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #84a64c;
+}
+
+nav a:hover {
+    background: #59dfe6;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 3px 6px;
+    margin: 0;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 759px) {
+    div.menubar {
+        display: block;
+        position: relative;
+        color: #000000;
+        font-weight: bold;
+        padding-left: 1em;
+        padding-right: 1em;
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav div.menubar a {
+        display: inline;
+    }
+
+    nav ul {
+        display: none;
+        color: #ffffff;
+        top: auto;
+        left: 0.5em;
+        list-style: none;
+        margin-top: 0;
+        padding-left: 0.5em;
+        border-top: 1px solid #dddddd;
+    }
+
+    nav > ul {
+        padding-right: 0.5em;
+        overflow: hidden;
+    }
+
+    nav ul li ul {
+        position: relative;
+        display: inline;
+        padding: 0;
+    }
+
+    nav ul li {
+        position: relative;
+        top: 0px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (min-width: 760px) {
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        position: relative;
+        display: inline-table;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    nav ul:after {
+        content: ""; clear: both; display: block;
+    }
+
+    nav ul li {
+        display: inline;
+        float: left;
+    }
+
+    nav ul li ul {
+        border: 1px solid #dddddd;
+        border-radius: 3px;
+        background: #ffffff;
+        display: none;
+        position: absolute;
+        top: auto;
+        left: auto;
+        padding: 0px 0px;
+    }
+
+    nav ul ul li {
+        float: none;
+        position: relative;
+    }
+
+    nav ul li:hover > ul {
+        display: block;
+    }
+}

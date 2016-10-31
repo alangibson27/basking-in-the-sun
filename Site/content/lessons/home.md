@@ -1,6 +1,6 @@
 +++
 date = "2014-11-26T21:54:51Z"
-draft = false
+draft = true
 title = "自宅レッスン"
 calendar = true
 contactlink = "ご予約、ご質問等ございましたら、こちらへどうぞ　☎"

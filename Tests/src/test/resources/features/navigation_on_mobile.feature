@@ -21,9 +21,7 @@ Feature: Navigation on a phone
     | link text       | target           |
     | ホーム             | home             |
     | インファンとマッサージーとは？ | about            |
-    | レッスン            | lessons/overview |
-    | 出張レッスン | lessons/visit |
-    | 自宅レッスン | lessons/home |
+    | レッスン            | lessons/visit |
     | プロフィール          | profile          |
     | ママの声            | testimonial      |
     | FAQ             | faq              |

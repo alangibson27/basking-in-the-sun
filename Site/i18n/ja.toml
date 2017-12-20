@@ -1,0 +1,50 @@
+[home]
+other = "ホーム"
+
+[about]
+other = "インファンとマッサージーとは？"
+
+[lessons]
+other = "レッスン"
+
+[profile]
+other = "プロフィール"
+
+[testimonial]
+other = "ママの声"
+
+[faq]
+other = "FAQ"
+
+[contact]
+other = "お問い合わせ"
+
+[cfName]
+other = "お名前"
+
+[cfEmail]
+other = "メールアドレス"
+
+[cfLessonType]
+other = "ご希望のレッスン"
+
+[cfPrivateLesson]
+other = "プライベートレッスン"
+
+[cfGroupLesson]
+other = "グループレッスン"
+
+[cfAnyLesson]
+other = "どちらでも良い"
+
+[cfMessage]
+other = "メッセージ"
+
+[cfSubmit]
+other = "送信"
+
+[cfSubmitSuccess]
+other = "ありがとうございます。メールは無事に送信されました。"
+
+[cfSubmitError]
+other = "メッセージが送れませんでした。もう一度お送りください。"

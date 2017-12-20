@@ -1,0 +1,50 @@
+[home]
+other = "HOME"
+
+[about]
+other = "ABOUT"
+
+[lessons]
+other = "LESSONS"
+
+[profile]
+other = "PROFILE"
+
+[testimonial]
+other = "TESTIMONIALS"
+
+[faq]
+other = "FAQ"
+
+[contact]
+other = "CONTACT"
+
+[cfName]
+other = "Name"
+
+[cfEmail]
+other = "Email"
+
+[cfLessonType]
+other = "Lesson Preference"
+
+[cfPrivateLesson]
+other = "Private Lessons"
+
+[cfGroupLesson]
+other = "Group Lessons"
+
+[cfAnyLesson]
+other = "Either"
+
+[cfMessage]
+other = "Message"
+
+[cfSubmit]
+other = "Send"
+
+[cfSubmitSuccess]
+other = "Your message was sent successfully."
+
+[cfSubmitError]
+other = "Your message could not be sent. Please try again later."

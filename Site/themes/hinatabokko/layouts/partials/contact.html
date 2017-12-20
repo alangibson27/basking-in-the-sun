@@ -1,30 +1,32 @@
 <div>
     <form id="contactform">
         <div class="form-group">
-            <label for="inputName">お名前</label>
-            <input name="name" type="name" id="inputName" placeholder="お名前"><span class="feedback" id="nameFeedback">
+            <label for="inputName">{{ i18n "cfName" }}</label>
+            <input name="name" type="name" id="inputName" placeholder="{{ i18n "cfName" }}"><span class="feedback" id="nameFeedback">
         </div>
 
         <div class="form-group">
-            <label for="inputEmail">メールアドレス</label>
-            <input name="email" type="email" id="inputEmail" placeholder="メールアドレス"><span class="feedback" id="emailFeedback">
+            <label for="inputEmail">{{ i18n "cfEmail" }}</label>
+            <input name="email" type="email" id="inputEmail" placeholder="{{ i18n "cfEmail" }}"><span class="feedback" id="emailFeedback">
         </div>
 
         <div class="form-group">
-            <label for="inputLessonType">ご希望のレッスン</label>
+            <label for="inputLessonType">{{ i18n "cfLessonType" }}</label>
             <select name="lessonType" id="inputLessonType">
-                <option>プライベートレッスン</option>
-                <option>グループレッスン</option>
-                <option>どちらでも良い</option>
+                <option>{{ i18n "cfPrivateLesson" }}</option>
+                <option>{{ i18n "cfGroupLesson" }}</option>
+                <option>{{ i18n "cfAnyLesson" }}</option>
             </select>
         </div>
 
         <div class="form-group">
-            <label for="message">メッセージ</label>
+            <label for="message">{{ i18n "cfMessage" }}</label>
             <textarea name="message" cols="80" rows="10" id="message"></textarea>
         </div>
 
-        <button type="submit" id="submit">送信</button><span class="feedback" id="response">
+        <input type="hidden" name="language" id="language" value="{{ .Site.Language }}"/>
+
+        <button type="submit" id="submit">{{ i18n "cfSubmit" }}</button><span class="feedback" id="response">
     </form>
 </div>
 
@@ -50,11 +52,11 @@
                 url: "{{ .Params.contactformaction }}",
                 data: formData,
                 success: function() {
-                    $("#response").text("ありがとうございます。メールは無事に送信されました。");
+                    $("#response").text("{{ i18n "cfSubmitSuccess" }}");
                     $("#submit").removeAttr("disabled");
                 },
                 error: function() {
-                    $("#response").text("メッセージが送れませんでした。もう一度お送りください。");
+                    $("#response").text("{{ i18n "cfSubmitError" }}");
                     $("#submit").removeAttr("disabled");
                 }
             });

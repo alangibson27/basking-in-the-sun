@@ -10,13 +10,15 @@ document.createElement('hgroup');
 </script>
 {{ "<![endif]-->" | safeHTML }}
 
-{{ range .Translations }}
-<div class="languageSelector"><a href="{{ .Permalink }}"><img src="http://images.baskinginthesun.co.uk/flag_{{ .Lang }}.png"/>{{ .Language.LanguageName }}</a></div>
-{{ end }}
+<div style="position: relative;">
+    {{ range .Translations }}
+    <div class="languageSelector"><a href="{{ .Permalink }}"><img src="http://images.baskinginthesun.co.uk/flag_{{ .Lang }}.png"/>{{ .Language.LanguageName }}</a></div>
+    {{ end }}
 
 
-<div class="pagetop">
-    <img class="toplogo" src="{{ .Site.Params.logo }}"/>
+    <div class="pagetop">
+        <img class="toplogo" src="{{ .Site.Params.logo }}"/>
+    </div>
 </div>
 
 {{ partial "navbar.html" . }}

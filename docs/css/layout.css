@@ -7,6 +7,22 @@
     min-height: 625px;
     border-radius: 10px;
     border: 1px solid;
+    position: relative;
+}
+
+.languageSelector {
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+}
+
+.languageSelector a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.languageSelector img {
+    vertical-align: middle;
 }
 
 .iframe {
@@ -93,15 +109,6 @@ div.button a:hover p {
     margin-right: auto;
     margin-bottom: 1em;
     width: 60%;
-}
-
-.introimage {
-    display: block;
-    width: 30%;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 h1 {
@@ -248,6 +255,19 @@ div.intro {
 
 div.intro p {
     margin-top: 0em;
+}
+
+div.languagebar {
+    float: right;
+}
+
+.introimage {
+    display: block;
+    width: 30%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (max-width: 500px) {

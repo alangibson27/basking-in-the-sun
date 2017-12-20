@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lessons on Basking in the Sun</title>
+    <link>http://www.baskinginthesun.co.uk/en/lessons/</link>
+    <description>Recent content in Lessons on Basking in the Sun</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 26 Nov 2014 21:54:47 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.baskinginthesun.co.uk/en/lessons/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lessons</title>
+      <link>http://www.baskinginthesun.co.uk/en/lessons/visit/</link>
+      <pubDate>Wed, 26 Nov 2014 21:54:47 +0000</pubDate>
+      
+      <guid>http://www.baskinginthesun.co.uk/en/lessons/visit/</guid>
+      <description>Baby massage lessons are taught in your home.
+Please see the schedule below for availability
+ Lesson information Age suitability
+ Babies between 2 months old and crawling age.
+  Group size
+ Up to 3 babies, plus their carers.
+  Lesson content
+ One 90-minute lesson per week for 4 weeks
+ Lesson 1: Leg and tummy massage
+Lesson 2: Revision plus chest, arm and face massage</description>
+    </item>
+    
+  </channel>
+</rss>

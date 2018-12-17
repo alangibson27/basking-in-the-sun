@@ -1,6 +1,6 @@
 +++
 date = "2014-11-26T21:54:47Z"
-draft = false
+draft = true
 title = "Lessons"
 calendar = true
 contactlink = "If you have any questions, please get in touch　☎"

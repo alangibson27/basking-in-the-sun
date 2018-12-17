@@ -7,8 +7,10 @@ title = "index"
 
 {{% introimage "http://images.baskinginthesun.co.uk/shutterstock_134583743.jpg" %}}
 
-{{% intro %}}
-Basking in the Sun is a baby and infant massage class for individuals and small groups.
+{{% block center %}}
+Thank-you for visting the Basking in the Sun website.
 
-Lessons are suitable for babies from 2 months to crawling age, and are taught in your home.
-{{% /intro %}}
+Due to maternity leave, Basking in the Sun is taking a break from January 2019 until the end of December 2019.
+
+Lessons will resume in January 2020.
+{{% /block %}}

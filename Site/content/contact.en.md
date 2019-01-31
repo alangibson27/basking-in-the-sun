@@ -6,9 +6,7 @@ contactform = true
 contactformaction = "https://baskinginthesun.herokuapp.com/to/965a5316-506c-432d-9801-5bdd649f5a7d"
 +++
 If you have any questions or would like to arrange a lesson, please feel free to get in touch
-by email, phone or using the contact form below.
-
-* Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[baskinginthesun22@gmail.com](mailto:baskinginthesun22@gmail.com)
+by phone or using the contact form below.
 
 * Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;07454 005 647
 
